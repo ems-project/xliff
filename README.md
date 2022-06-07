@@ -1,5 +1,5 @@
-# PHP Helpers
-enclose and simplify regular PHP functions in PHPStan compliant functions
+# XLIFF
+Library that generate and load XLIFF files with associative arrays. This library support regular text but also HTML by segmenting them.
 
 Coding standards
 ----------------
