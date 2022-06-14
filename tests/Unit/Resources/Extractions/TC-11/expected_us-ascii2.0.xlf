@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="fr">
+  <file id="contentType:ouuid_1:revisionId_1">
+    <unit id="[title_%locale%]">
+      <segment>
+        <source>Foo</source>
+        <target>Bar</target>
+      </segment>
+    </unit>
+  </file>
+  <file id="contentType:ouuid_2:revisionId_2">
+    <unit id="[title_%locale%]">
+      <segment>
+        <source>Hello</source>
+        <target>Bonjour</target>
+      </segment>
+    </unit>
+    <unit id="[keywords_%locale%]">
+      <segment>
+        <source>test xliff</source>
+        <target/>
+      </segment>
+    </unit>
+    <unit id="[empty]">
+      <segment>
+        <source/>
+        <target/>
+      </segment>
+    </unit>
+    <group id="[%locale%][body]">
+      <unit id="/html/body/p[1]">
+        <segment id="/html/body/p[1]">
+          <source> De begindatum van de lijn van weddebijslag is een onontbeerlijk gegeven. De begindatum moet dus systematisch in elke lijn worden aangegeven. </source>
+          <target> Das Beginndatum der Zeile f&#252;r Gehaltszuschl&#228;ge ist eine unerl&#228;ssliche Angabe. Das Beginndatum muss daher systematisch in jeder Zeile angegeben werden. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[2]">
+        <segment id="/html/body/p[2]">
+          <source> De einddatum is daarentegen in bepaalde omstandigheden verplicht en moet slechts worden ingevuld in die gevallen waarin de lijn moet worden afgesloten. </source>
+          <target> Das Enddatum ist dagegen unter bestimmten Bedingungen obligatorisch und nur in den F&#228;llen einzutragen, in denen die Zeile abgeschlossen werden muss. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[3]">
+        <segment id="/html/body/p[3]">
+          <source> Deze omstandigheden zijn meer bepaald afhankelijk van de wijze van aangifte van de bijslag. </source>
+          <target> Diese Bedingungen sind insbesondere von der Art der Meldung des Zuschlags abh&#228;ngig. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[4]">
+        <segment id="/html/body/p[4]">
+          <source> We onderscheiden twee manieren, naargelang van het type bijslag dat moet worden aangegeven: </source>
+          <target> Wir unterscheiden zwei Arten, je nach Art des Zuschlags, der anzugeben ist: </target>
+        </segment>
+      </unit>
+      <group id="/html/body/ul[1]">
+        <unit id="/html/body/ul[1]/li[1]">
+          <segment id="/html/body/ul[1]/li[1]">
+            <source>forfaitaire bijslagen of percentagebijslagen moeten per periode worden aangegeven, onafhankelijk van het kalenderkwartaal; </source>
+            <target>pauschale Zuschl&#228;ge oder prozentuale Zuschl&#228;ge sind unabh&#228;ngig vom Kalenderquartal pro Periode anzugeben. </target>
+          </segment>
+        </unit>
+        <unit id="/html/body/ul[1]/li[2]">
+          <segment id="/html/body/ul[1]/li[2]">
+            <source>bijslagen per eenheid (per uur of per prestatie) worden aangegeven binnen het kalenderkwartaal. </source>
+            <target>Zuschl&#228;ge pro Einheit (pro Stunde oder pro Leistung) sind innerhalb des Kalenderquartals anzugeben. </target>
+          </segment>
+        </unit>
+      </group>
+      <unit id="/html/body/p[5]">
+        <segment id="/html/body/p[5]">
+          <source> Ongeacht het type bijslag waarop de aangifte betrekking heeft, mag de eerste begindatum van de eerste lijn van weddebijslag in geen geval voor 1 januari 2011 liggen. Deze gegevens zullen immers voor het eerst officieel worden aangegeven bij de DmfA-aangifte van het 1ste kwartaal van 2011. </source>
+          <target> Unabh&#228;ngig von der Art des Zuschlags, auf den sich die Meldung bezieht, kann das Beginndatum jeder Zeile f&#252;r Gehaltszuschl&#228;ge auf keinen Fall vor dem 01.01.2011 liegen. Diese Angaben erfolgen vor der ersten offiziellen Eintragung in die DmfAPPL-Meldung f&#252;r das 1.&#160;Quartal&#160;2011. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/h2[1]">
+        <segment id="/html/body/h2[1]">
+          <source> Forfaitaire bijslagen of percentagebijslagen </source>
+          <target> Pauschale Zuschl&#228;ge oder prozentuale Zuschl&#228;ge </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[6]">
+        <segment id="/html/body/p[6]">
+          <source> Het betreft voornamelijk bijslagen gekoppeld aan het bezitten van een bepaalde graad, het uitoefenen van een bepaalde functie, het slagen voor een examen of het bezitten van een specifieke titel of diploma en zelfs een specifieke beroepservaring. </source>
+          <target> Es handelt sich insbesondere um Zuschl&#228;ge in Verbindung mit einem bestimmten Dienstgrad, dem Aus&#252;ben einer bestimmten Funktion, dem Bestehen einer Pr&#252;fung oder dem Besitz eines bestimmten Titels oder Diploms oder sogar dem Nachweis &#252;ber eine spezifische Berufserfahrung. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[7]">
+        <segment id="/html/body/p[7]">
+          <source> Deze bijslagen worden maandelijks uitbetaald, samen met de wedde van het personeelslid en volgens dezelfde voorwaarden als de wedde. </source>
+          <target> Diese Zuschl&#228;ge werden monatlich ausgezahlt, zusammen mit dem Gehalt des Personalmitglieds und gem&#228;&#223; den gleichen Bedingungen wie denen, die f&#252;r das Gehalt anwendbar sind. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[8]">
+        <segment id="/html/body/p[8]">
+          <source> Voor de aangifte van de begin- en einddata van dit type bijslag wordt dezelfde logica gevolgd als die beschreven in het hoofdstuk over de begin- en einddata van de baremieke wedde. </source>
+          <target> Die Angabe des Beginn- und Enddatums dieser Art von Zuschlag erfolgt nach der gleichen Logik wie jener, die im Kapitel &#252;ber das Beginn- und Enddatum des Tarifgehalts beschrieben wurde. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[9]">
+        <segment id="/html/body/p[9]">
+          <source> Net als bij de baremieke wedde kunnen verschillende weddebijslagen tegelijk worden toegekend. Dit is het geval wanneer het personeelslid tijdens eenzelfde periode verschillende toeslagen ontvangt die in aanmerking kunnen worden genomen voor de berekening van het rustpensioen. </source>
+          <target> Genauso wie beim Tarifgehalt k&#246;nnen verschiedene Gehaltszuschl&#228;ge gleichzeitig gew&#228;hrt werden. Dies ist der Fall, wenn das Personalmitglied w&#228;hrend einer bestimmten Periode verschiedene Zuschl&#228;ge erh&#228;lt, die f&#252;r die Berechnung der Ruhestandspension infrage kommen. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[10]">
+        <segment id="/html/body/p[10]">
+          <source> Voor elk van deze bijslagen moet een afzonderlijke begin- en einddatum en een correcte referentie worden opgegeven. </source>
+          <target> F&#252;r jeden dieser Zuschl&#228;ge ist ein gesondertes Beginn- und Enddatum und eine korrekte Referenz anzugeben. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[11]">
+        <segment id="/html/body/p[11]">
+          <source> Zolang de gegevens m.b.t. de weddebijslag ongewijzigd blijven, hoeft u geen nieuwe lijn aan te maken. De begindatum kan bijgevolg voor de start van het kalenderkwartaal van de aangifte liggen. </source>
+          <target> Solange die Angaben in Bezug auf den Gehaltszuschlag unver&#228;ndert bleiben, m&#252;ssen Sie keine neue Zeile einrichten. Das Beginndatum kann daher vor dem Beginn des Kalenderquartals der Meldung liegen. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[12]">
+        <segment id="/html/body/p[12]">
+          <source> Zodra een van de gegevens van de weddebijslag wijzigt, moet u echter een nieuwe lijn aanmaken met een nieuwe begindatum, en de vorige lijn met een einddatum afsluiten. </source>
+          <target> Sobald sich jedoch eine der Angaben des Gehaltszuschlags &#228;ndert, m&#252;ssen Sie eine neue Zeile mit einem neuen Beginndatum erstellen und die vorangegangene Zeile mit einem Enddatum abschlie&#223;en. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[13]">
+        <segment id="/html/body/p[13]">
+          <source> Deze begin- en einddata mogen dus niet verward worden met de begin- en einddata van de lijn van de baremieke wedde, noch met die van de lijn met de gegevens van de tewerkstelling met betrekking tot de overheidssector, noch met die van de tewerkstellingslijn. </source>
+          <target> Dieses Beginn- und Enddatum ist daher weder mit dem Beginn- und Enddatum der Zeile des Tarifgehalts noch mit der Zeile mit den Angaben &#252;ber die Besch&#228;ftigung im &#246;ffentlichen Sektor oder denen der Besch&#228;ftigungszeile zu verwechseln. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[14]">
+        <segment id="/html/body/p[14]">
+          <source> Voor elke lijn van weddebijslag dient u bij elk kwartaal de begindatum uitdrukkelijk te vermelden. </source>
+          <target> F&#252;r jede Zeile des Gehaltszuschlags m&#252;ssen Sie bei jedem Quartal das Beginndatum ausdr&#252;cklich angeben. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[15]">
+        <segment id="/html/body/p[15]">
+          <source> U moet de einddatum daarentegen enkel aangeven wanneer de lijn moet worden afgesloten, m.a.w. in de gevallen die hieronder worden toegelicht. </source>
+          <target> Das Enddatum m&#252;ssen Sie dagegen nur angeben, wenn die Zeile abgeschlossen werden muss, d. h. in den nachfolgend erl&#228;uterten F&#228;llen. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/h3">
+        <segment id="/html/body/h3">
+          <source> Belangrijke opmerkingen in verband met de einddatum </source>
+          <target> Wichtige Anmerkungen in Bezug auf das Enddatum </target>
+        </segment>
+      </unit>
+      <group id="/html/body/ol">
+        <unit id="/html/body/ol/li[1]">
+          <segment id="/html/body/ol/li[1]">
+            <source>De einddatum van de weddebijslaglijn mag in geen geval later vallen dan de einddatum van de lijn van de baremieke wedde waarvan die afhangt (en mag uiteraard ook niet later vallen dan de einddatum van het kalenderkwartaal waarop de aangifte betrekking heeft). </source>
+            <target>Das Enddatum der Zeile f&#252;r Gehaltszuschl&#228;ge darf auf keinen Fall nach dem Enddatum der Zeile des Tarifgehalts liegen, von der es abh&#228;ngt (selbstverst&#228;ndlich darf es auch nicht nach dem Enddatum des Kalenderquartals liegen, auf das sich die Meldung bezieht). </target>
+          </segment>
+        </unit>
+        <group id="/html/body/ol/li[2]">
+          <unit id="/html/body/ol/li[2]/text()[1]">
+            <segment id="/html/body/ol/li[2]/text()[1]">
+              <source>De afsluiting van een lijn van baremieke wedde leidt niet noodzakelijk tot de afsluiting van de lijn van weddebijslag die daarvan afhangt. Concreet moet u enkel een weddebijslaglijn afsluiten in een van de volgende drie gevallen: </source>
+              <target>Der Abschluss einer Zeile des Tarifgehalts f&#252;hrt nicht unbedingt zum Abschluss der Zeile des Gehaltszuschlags, die davon abh&#228;ngt. Konkret m&#252;ssen Sie nur eine Zeile f&#252;r Gehaltszuschl&#228;ge in einem der drei folgenden F&#228;lle abschlie&#223;en: </target>
+            </segment>
+          </unit>
+          <group id="/html/body/ol/li[2]/ol">
+            <unit id="/html/body/ol/li[2]/ol/li[1]">
+              <segment id="/html/body/ol/li[2]/ol/li[1]">
+                <source>ofwel wijzigt de situatie van de weddebijslag omdat een gegeven wijzigt; </source>
+                <target>entweder &#228;ndert sich die Situation des Gehaltszuschlags, da sich eine Angabe ver&#228;ndert; </target>
+              </segment>
+            </unit>
+            <unit id="/html/body/ol/li[2]/ol/li[2]">
+              <segment id="/html/body/ol/li[2]/ol/li[2]">
+                <source>ofwel verliest het personeelslid het recht op de bijslag (bijvoorbeeld omdat zijn of haar graad of functie is gewijzigd); </source>
+                <target>oder das Personalmitglied verliert den Anspruch auf den Zuschlag (z. B. aufgrund einer Ver&#228;nderung von Dienstgrad oder Funktion); </target>
+              </segment>
+            </unit>
+            <unit id="/html/body/ol/li[2]/ol/li[3]">
+              <segment id="/html/body/ol/li[2]/ol/li[3]">
+                <source>ofwel wordt de baremieke weddelijn definitief afgesloten (de werkrelatie tussen de werknemer en de werkgever is verbroken). </source>
+                <target>oder die Tarifgehaltszeile wird endg&#252;ltig abgeschlossen (das Besch&#228;ftigungsverh&#228;ltnis zwischen dem Arbeitnehmer und dem Arbeitgeber wurde beendet). </target>
+              </segment>
+            </unit>
+          </group>
+        </group>
+      </group>
+      <unit id="/html/body/p[16]">
+        <segment id="/html/body/p[16]">
+          <source> In dit laatste geval moet u alle lijnen van weddebijslag onder de afgesloten lijn van de baremieke wedde afsluiten die, in voorkomend geval, tegelijkertijd werden geopend. </source>
+          <target> Im letztgenannten Fall m&#252;ssen Sie alle Zeilen des Gehaltszuschlags unter der abgeschlossenen Zeile des Tarifgehalts, die ggf. gleichzeitig ge&#246;ffnet waren, vollst&#228;ndig ausf&#252;llen. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/h2[2]">
+        <segment id="/html/body/h2[2]">
+          <source> Bijslagen per eenheid (per uur of per prestatie) </source>
+          <target> Zuschl&#228;ge pro Einheit (pro Stunde oder pro Leistung) </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[17]">
+        <segment id="/html/body/p[17]">
+          <source> Het betreft bijslagen die nu en dan aan het personeelslid worden toegekend als vergoeding voor een prestatie (bijvoorbeeld overuren). </source>
+          <target> Es betrifft Zuschl&#228;ge, die dem Personalmitglied gelegentlich als Entsch&#228;digung f&#252;r eine Leistung (zum Beispiel &#220;berstunden) gew&#228;hrt werden. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[18]">
+        <segment id="/html/body/p[18]">
+          <source> Voor elk van deze bijslagen wordt een vast eenheidsbedrag bepaald, dit is het bedrag dat voor een bepaalde prestatie wordt toegekend (een vast bedrag per overuur bijvoorbeeld). </source>
+          <target> F&#252;r jeden dieser Zuschl&#228;ge wird ein fester Einheitsbetrag festgelegt, d. h. der Betrag, der f&#252;r eine bestimmte Leistung gew&#228;hrt wird (z. B. ein fester Betrag pro &#220;berstunde). </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[19]">
+        <segment id="/html/body/p[19]">
+          <source> Deze bijslagen zijn dus per definitie variabel en zijn moeilijk aan te geven op basis van een systeem waarbij telkens een nieuwe lijn moet worden aangemaakt voor iedere periode waarin het personeelslid een dergelijke bijslag heeft ontvangen. </source>
+          <target> Diese Zuschl&#228;ge sind daher definitionsgem&#228;&#223; variabel und schwierig anzugeben auf Basis eines Systems, bei dem f&#252;r jede Periode, in welcher das Personalmitglied einen solchen Zuschlag erhalten hat, eine neue Zeile einzurichten ist. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[20]">
+        <segment id="/html/body/p[20]">
+          <source> Een dergelijk systeem zou er in extreme gevallen toe kunnen leiden dat een nieuwe lijn moet worden aangemaakt voor &#233;&#233;n dag waarvoor de bijslag verschuldigd is. </source>
+          <target> Ein solches System f&#252;hrt im Extremfall dazu, dass f&#252;r einen Tag, f&#252;r den der Zuschlag geschuldet wird, eine neue Zeile einzurichten ist. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[21]">
+        <segment id="/html/body/p[21]">
+          <source> Daarom mogen deze bedragen per bijslag (dus per referentie) worden gebundeld en in &#233;&#233;n keer worden aangegeven voor een periode die evenwel niet langer mag duren dan het kwartaal. Deze periode is dus: </source>
+          <target> Deshalb k&#246;nnen diese Betr&#228;ge pro Zuschlag (d. h. pro Referenz) zusammengefasst und f&#252;r eine Periode, die jedoch nicht l&#228;nger als ein Quartal dauern kann, auf einmal angegeben werden. Diese Periode ist daher: </target>
+        </segment>
+      </unit>
+      <group id="/html/body/ul[2]">
+        <unit id="/html/body/ul[2]/li[1]">
+          <segment id="/html/body/ul[2]/li[1]">
+            <source>ofwel het kalenderkwartaal van de aangifte (op voorwaarde dat de lijn van de baremieke wedde waarvan de weddebijslaglijn afhangt het hele kwartaal bestrijkt); </source>
+            <target>das Kalenderquartal der Meldung (vorausgesetzt, dass die Zeile des Tarifgehalts, die f&#252;r die Zeile des Gehaltszuschlags ma&#223;geblich ist, sich &#252;ber das gesamte Quartal erstreckt); </target>
+          </segment>
+        </unit>
+        <unit id="/html/body/ul[2]/li[2]">
+          <segment id="/html/body/ul[2]/li[2]">
+            <source>ofwel de periode tussen de begindatum van het kalenderkwartaal van de aangifte en de einddatum van de lijn van de baremieke wedde waarvan de weddebijslaglijn afhangt (waarbij de lijn van de baremieke wedde in de loop van het kwartaal werd afgesloten); </source>
+            <target>oder die Periode zwischen dem Beginndatum des Kalenderquartals der Meldung und dem Enddatum der Zeile des Tarifgehalts, das f&#252;r die Zeile des Gehaltszuschlags ma&#223;geblich ist (wobei die Zeile des Tarifgehalts im Laufe des Quartals abgeschlossen wurde); </target>
+          </segment>
+        </unit>
+        <unit id="/html/body/ul[2]/li[3]">
+          <segment id="/html/body/ul[2]/li[3]">
+            <source>ofwel de periode tussen de begindatum van de lijn van de baremieke wedde waarvan de weddebijslaglijn afhangt en het einde van het kalenderkwartaal (waarbij een nieuwe lijn van baremieke wedde in de loop van het kwartaal werd geopend); </source>
+            <target>oder die Periode zwischen dem Beginndatum der Zeile des Tarifgehalts, das f&#252;r die Zeile des Gehaltszuschlags ma&#223;geblich ist, und dem Ende des Kalenderquartals (wobei eine neue Zeile des Tarifgehalts im Laufe des Quartals eingerichtet wurde); </target>
+          </segment>
+        </unit>
+        <unit id="/html/body/ul[2]/li[4]">
+          <segment id="/html/body/ul[2]/li[4]">
+            <source>ofwel een van de maanden in het kalenderkwartaal van de aangifte (op voorwaarde dat de lijn van baremieke wedde waarvan de weddebijslaglijn afhangt die hele maand bestrijkt). </source>
+            <target>oder einer der Monate im Kalenderquartal der Meldung (vorausgesetzt, dass die Zeile des Tarifgehalts, die f&#252;r die Zeile des Gehaltszuschlags ma&#223;geblich ist, sich &#252;ber den gesamten Monat erstreckt). </target>
+          </segment>
+        </unit>
+      </group>
+      <unit id="/html/body/p[22]">
+        <segment id="/html/body/p[22]">
+          <source> Kortom, het is de aangever die, door opgave van een begin- en einddatum, de periode bepaalt waarvoor hij, voor eenzelfde bijslag, het aantal eenheden van die bijslag aangeeft, evenals het eenheidsbedrag van de bijslag en het globale bedrag dat hij aan het personeelslid heeft toegekend.<g ctype="lb"/> Voor dit type bijslag moet iedere nieuwe lijn een begindatum hebben, die niet voor de begindatum van het aangiftekwartaal mag liggen, alsook een einddatum, die niet na de einddatum van het aangiftekwartaal mag vallen. </source>
+          <target> Kurz gefasst: Durch Angabe des Beginn- und Enddatum bestimmt der Meldende, wof&#252;r er f&#252;r einen bestimmten Zuschlag die Anzahl Einheiten dieses Zuschlags angibt, sowie einen Einheitsbetrag dieses Zuschlags und den Gesamtbetrag, den er dem Personalmitglied gew&#228;hrt hat.<g ctype="lb"/> F&#252;r diese Art von Zuschlag muss jede neue Zeile ein Beginndatum enthalten, das nicht vor dem Beginndatum des Meldequartals liegen darf, sowie ein Enddatum, das nicht nach dem Enddatum des Meldequartals liegen darf. </target>
+        </segment>
+      </unit>
+    </group>
+    <group id="[%locale%][body2]">
+      <unit id="/html/body/p[1]">
+        <segment id="/html/body/p[1]">
+          <source>
+  De begindatum van de lijn van weddebijslag is een onontbeerlijk
+  gegeven. De begindatum moet dus systematisch in elke lijn
+  worden aangegeven.
+</source>
+          <target>
+  Das Beginndatum der Zeile f&#252;r Gehaltszuschl&#228;ge ist eine
+  unerl&#228;ssliche Angabe. Das Beginndatum muss daher systematisch
+  in jeder Zeile angegeben werden.
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[2]">
+        <segment id="/html/body/p[2]">
+          <source>
+  De einddatum is daarentegen in bepaalde omstandigheden
+  verplicht en moet slechts worden ingevuld in die gevallen
+  waarin de lijn moet worden afgesloten.
+</source>
+          <target>
+  Das Enddatum ist dagegen unter bestimmten Bedingungen
+  obligatorisch und nur in den F&#228;llen einzutragen, in denen die
+  Zeile abgeschlossen werden muss.
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[3]">
+        <segment id="/html/body/p[3]">
+          <source>
+  Deze omstandigheden zijn meer bepaald afhankelijk van de wijze
+  van aangifte van de bijslag.
+</source>
+          <target>
+  Diese Bedingungen sind insbesondere von der Art der Meldung des
+  Zuschlags abh&#228;ngig.
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[4]">
+        <segment id="/html/body/p[4]">
+          <source>
+  We onderscheiden twee manieren, naargelang van het type bijslag
+  dat moet worden aangegeven:
+</source>
+          <target>
+  Wir unterscheiden zwei Arten, je nach Art des Zuschlags, der
+  anzugeben ist:
+</target>
+        </segment>
+      </unit>
+      <group id="/html/body/ul[1]">
+        <unit id="/html/body/ul[1]/li[1]">
+          <segment id="/html/body/ul[1]/li[1]">
+            <source>forfaitaire bijslagen of percentagebijslagen moeten per
+  periode worden aangegeven, onafhankelijk van het
+  kalenderkwartaal;
+  </source>
+            <target>pauschale Zuschl&#228;ge oder prozentuale Zuschl&#228;ge sind
+  unabh&#228;ngig vom Kalenderquartal pro Periode anzugeben.
+  </target>
+          </segment>
+        </unit>
+        <unit id="/html/body/ul[1]/li[2]">
+          <segment id="/html/body/ul[1]/li[2]">
+            <source>bijslagen per eenheid (per uur of per prestatie) worden
+  aangegeven binnen het kalenderkwartaal.
+  </source>
+            <target>Zuschl&#228;ge pro Einheit (pro Stunde oder pro Leistung) sind
+  innerhalb des Kalenderquartals anzugeben.
+  </target>
+          </segment>
+        </unit>
+      </group>
+      <unit id="/html/body/p[5]">
+        <segment id="/html/body/p[5]">
+          <source>
+  Ongeacht het type bijslag waarop de aangifte betrekking heeft,
+  mag de eerste begindatum van de eerste lijn van weddebijslag in
+  geen geval voor 1 januari 2011 liggen. Deze gegevens zullen
+  immers voor het eerst officieel worden aangegeven bij de
+  DmfA-aangifte van het 1ste kwartaal van 2011.
+</source>
+          <target>
+  Unabh&#228;ngig von der Art des Zuschlags, auf den sich die Meldung
+  bezieht, kann das Beginndatum jeder Zeile f&#252;r Gehaltszuschl&#228;ge
+  auf keinen Fall vor dem 01.01.2011 liegen. Diese Angaben
+  erfolgen vor der ersten offiziellen Eintragung in die
+  DmfAPPL-Meldung f&#252;r das 1.&#160;Quartal&#160;2011.
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/h2[1]">
+        <segment id="/html/body/h2[1]">
+          <source>
+  Forfaitaire bijslagen of percentagebijslagen
+</source>
+          <target>
+  Pauschale Zuschl&#228;ge oder prozentuale Zuschl&#228;ge
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[6]">
+        <segment id="/html/body/p[6]">
+          <source>
+  Het betreft voornamelijk bijslagen gekoppeld aan het bezitten
+  van een bepaalde graad, het uitoefenen van een bepaalde
+  functie, het slagen voor een examen of het bezitten van een
+  specifieke titel of diploma en zelfs een specifieke
+  beroepservaring.
+</source>
+          <target>
+  Es handelt sich insbesondere um Zuschl&#228;ge in Verbindung mit
+  einem bestimmten Dienstgrad, dem Aus&#252;ben einer bestimmten
+  Funktion, dem Bestehen einer Pr&#252;fung oder dem Besitz eines
+  bestimmten Titels oder Diploms oder sogar dem Nachweis &#252;ber
+  eine spezifische Berufserfahrung.
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[7]">
+        <segment id="/html/body/p[7]">
+          <source>
+  Deze bijslagen worden maandelijks uitbetaald, samen met de
+  wedde van het personeelslid en volgens dezelfde voorwaarden als
+  de wedde.
+</source>
+          <target>
+  Diese Zuschl&#228;ge werden monatlich ausgezahlt, zusammen mit dem
+  Gehalt des Personalmitglieds und gem&#228;&#223; den gleichen Bedingungen
+  wie denen, die f&#252;r das Gehalt anwendbar sind.
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[8]">
+        <segment id="/html/body/p[8]">
+          <source>
+  Voor de aangifte van de begin- en einddata van dit type bijslag
+  wordt dezelfde logica gevolgd als die beschreven in het
+  hoofdstuk over de begin- en einddata van de baremieke wedde.
+</source>
+          <target>
+  Die Angabe des Beginn- und Enddatums dieser Art von Zuschlag
+  erfolgt nach der gleichen Logik wie jener, die im Kapitel &#252;ber
+  das Beginn- und Enddatum des Tarifgehalts beschrieben wurde.
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[9]">
+        <segment id="/html/body/p[9]">
+          <source>
+  Net als bij de baremieke wedde kunnen verschillende
+  weddebijslagen tegelijk worden toegekend. Dit is het geval
+  wanneer het personeelslid tijdens eenzelfde periode
+  verschillende toeslagen ontvangt die in aanmerking kunnen
+  worden genomen voor de berekening van het rustpensioen.
+</source>
+          <target>
+  Genauso wie beim Tarifgehalt k&#246;nnen verschiedene
+  Gehaltszuschl&#228;ge gleichzeitig gew&#228;hrt werden. Dies ist der
+  Fall, wenn das Personalmitglied w&#228;hrend einer bestimmten
+  Periode verschiedene Zuschl&#228;ge erh&#228;lt, die f&#252;r die Berechnung
+  der Ruhestandspension infrage kommen.
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[10]">
+        <segment id="/html/body/p[10]">
+          <source>
+  Voor elk van deze bijslagen moet een afzonderlijke begin- en
+  einddatum en een correcte referentie worden opgegeven.
+</source>
+          <target>
+  F&#252;r jeden dieser Zuschl&#228;ge ist ein gesondertes Beginn- und
+  Enddatum und eine korrekte Referenz anzugeben.
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[11]">
+        <segment id="/html/body/p[11]">
+          <source>
+  Zolang de gegevens m.b.t. de weddebijslag ongewijzigd blijven,
+  hoeft u geen nieuwe lijn aan te maken. De begindatum kan
+  bijgevolg voor de start van het kalenderkwartaal van de
+  aangifte liggen.
+</source>
+          <target>
+  Solange die Angaben in Bezug auf den Gehaltszuschlag
+  unver&#228;ndert bleiben, m&#252;ssen Sie keine neue Zeile einrichten.
+  Das Beginndatum kann daher vor dem Beginn des Kalenderquartals
+  der Meldung liegen.
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[12]">
+        <segment id="/html/body/p[12]">
+          <source>
+  Zodra een van de gegevens van de weddebijslag wijzigt, moet u
+  echter een nieuwe lijn aanmaken met een nieuwe begindatum, en
+  de vorige lijn met een einddatum afsluiten.
+</source>
+          <target>
+  Sobald sich jedoch eine der Angaben des Gehaltszuschlags
+  &#228;ndert, m&#252;ssen Sie eine neue Zeile mit einem neuen Beginndatum
+  erstellen und die vorangegangene Zeile mit einem Enddatum
+  abschlie&#223;en.
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[13]">
+        <segment id="/html/body/p[13]">
+          <source>
+  Deze begin- en einddata mogen dus niet verward worden met de
+  begin- en einddata van de lijn van de baremieke wedde, noch met
+  die van de lijn met de gegevens van de tewerkstelling met
+  betrekking tot de overheidssector, noch met die van de
+  tewerkstellingslijn.
+</source>
+          <target>
+  Dieses Beginn- und Enddatum ist daher weder mit dem Beginn- und
+  Enddatum der Zeile des Tarifgehalts noch mit der Zeile mit den
+  Angaben &#252;ber die Besch&#228;ftigung im &#246;ffentlichen Sektor oder
+  denen der Besch&#228;ftigungszeile zu verwechseln.
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[14]">
+        <segment id="/html/body/p[14]">
+          <source>
+  Voor elke lijn van weddebijslag dient u bij elk kwartaal de
+  begindatum uitdrukkelijk te vermelden.
+</source>
+          <target>
+  F&#252;r jede Zeile des Gehaltszuschlags m&#252;ssen Sie bei jedem
+  Quartal das Beginndatum ausdr&#252;cklich angeben.
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[15]">
+        <segment id="/html/body/p[15]">
+          <source>
+  U moet de einddatum daarentegen enkel aangeven wanneer de lijn
+  moet worden afgesloten, m.a.w. in de gevallen die hieronder
+  worden toegelicht.
+</source>
+          <target>
+  Das Enddatum m&#252;ssen Sie dagegen nur angeben, wenn die Zeile
+  abgeschlossen werden muss, d. h. in den nachfolgend erl&#228;uterten
+  F&#228;llen.
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/h3">
+        <segment id="/html/body/h3">
+          <source>
+  Belangrijke opmerkingen in verband met de einddatum
+</source>
+          <target>
+  Wichtige Anmerkungen in Bezug auf das Enddatum
+</target>
+        </segment>
+      </unit>
+      <group id="/html/body/ol">
+        <unit id="/html/body/ol/li[1]">
+          <segment id="/html/body/ol/li[1]">
+            <source>De einddatum van de weddebijslaglijn mag in geen geval
+  later vallen dan de einddatum van de lijn van de baremieke
+  wedde waarvan die afhangt (en mag uiteraard ook niet later
+  vallen dan de einddatum van het kalenderkwartaal waarop de
+  aangifte betrekking heeft).
+  </source>
+            <target>Das Enddatum der Zeile f&#252;r Gehaltszuschl&#228;ge darf auf keinen
+  Fall nach dem Enddatum der Zeile des Tarifgehalts liegen, von
+  der es abh&#228;ngt (selbstverst&#228;ndlich darf es auch nicht nach dem
+  Enddatum des Kalenderquartals liegen, auf das sich die Meldung
+  bezieht).
+  </target>
+          </segment>
+        </unit>
+        <group id="/html/body/ol/li[2]">
+          <unit id="/html/body/ol/li[2]/text()[1]">
+            <segment id="/html/body/ol/li[2]/text()[1]">
+              <source>De afsluiting van een lijn van baremieke wedde leidt niet noodzakelijk tot de afsluiting van de lijn van weddebijslag die daarvan afhangt. Concreet moet u enkel een weddebijslaglijn afsluiten in een van de volgende drie gevallen: </source>
+              <target>Der Abschluss einer Zeile des Tarifgehalts f&#252;hrt nicht unbedingt zum Abschluss der Zeile des Gehaltszuschlags, die davon abh&#228;ngt. Konkret m&#252;ssen Sie nur eine Zeile f&#252;r Gehaltszuschl&#228;ge in einem der drei folgenden F&#228;lle abschlie&#223;en: </target>
+            </segment>
+          </unit>
+          <group id="/html/body/ol/li[2]/ol">
+            <unit id="/html/body/ol/li[2]/ol/li[1]">
+              <segment id="/html/body/ol/li[2]/ol/li[1]">
+                <source>ofwel wijzigt de situatie van de weddebijslag omdat een
+      gegeven wijzigt;
+      </source>
+                <target>entweder &#228;ndert sich die Situation des
+      Gehaltszuschlags, da sich eine Angabe ver&#228;ndert;
+      </target>
+              </segment>
+            </unit>
+            <unit id="/html/body/ol/li[2]/ol/li[2]">
+              <segment id="/html/body/ol/li[2]/ol/li[2]">
+                <source>ofwel verliest het personeelslid het recht op de
+      bijslag (bijvoorbeeld omdat zijn of haar graad of functie
+      is gewijzigd);
+      </source>
+                <target>oder das Personalmitglied verliert den Anspruch auf den
+      Zuschlag (z. B. aufgrund einer Ver&#228;nderung von Dienstgrad
+      oder Funktion);
+      </target>
+              </segment>
+            </unit>
+            <unit id="/html/body/ol/li[2]/ol/li[3]">
+              <segment id="/html/body/ol/li[2]/ol/li[3]">
+                <source>ofwel wordt de baremieke weddelijn definitief
+      afgesloten (de werkrelatie tussen de werknemer en de
+      werkgever is verbroken).
+      </source>
+                <target>oder die Tarifgehaltszeile wird endg&#252;ltig abgeschlossen
+      (das Besch&#228;ftigungsverh&#228;ltnis zwischen dem Arbeitnehmer und
+      dem Arbeitgeber wurde beendet).
+      </target>
+              </segment>
+            </unit>
+          </group>
+        </group>
+      </group>
+      <unit id="/html/body/p[16]">
+        <segment id="/html/body/p[16]">
+          <source>
+  In dit laatste geval moet u alle lijnen van weddebijslag onder
+  de afgesloten lijn van de baremieke wedde afsluiten die, in
+  voorkomend geval, tegelijkertijd werden geopend.
+</source>
+          <target>
+  Im letztgenannten Fall m&#252;ssen Sie alle Zeilen des
+  Gehaltszuschlags unter der abgeschlossenen Zeile des
+  Tarifgehalts, die ggf. gleichzeitig ge&#246;ffnet waren, vollst&#228;ndig
+  ausf&#252;llen.
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/h2[2]">
+        <segment id="/html/body/h2[2]">
+          <source>
+  Bijslagen per eenheid (per uur of per prestatie)
+</source>
+          <target>
+  Zuschl&#228;ge pro Einheit (pro Stunde oder pro Leistung)
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[17]">
+        <segment id="/html/body/p[17]">
+          <source>
+  Het betreft bijslagen die nu en dan aan het personeelslid
+  worden toegekend als vergoeding voor een prestatie
+  (bijvoorbeeld overuren).
+</source>
+          <target>
+  Es betrifft Zuschl&#228;ge, die dem Personalmitglied gelegentlich
+  als Entsch&#228;digung f&#252;r eine Leistung (zum Beispiel &#220;berstunden)
+  gew&#228;hrt werden.
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[18]">
+        <segment id="/html/body/p[18]">
+          <source>
+  Voor elk van deze bijslagen wordt een vast eenheidsbedrag
+  bepaald, dit is het bedrag dat voor een bepaalde prestatie
+  wordt toegekend (een vast bedrag per overuur bijvoorbeeld).
+</source>
+          <target>
+  F&#252;r jeden dieser Zuschl&#228;ge wird ein fester Einheitsbetrag
+  festgelegt, d. h. der Betrag, der f&#252;r eine bestimmte Leistung
+  gew&#228;hrt wird (z. B. ein fester Betrag pro &#220;berstunde).
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[19]">
+        <segment id="/html/body/p[19]">
+          <source>
+  Deze bijslagen zijn dus per definitie variabel en zijn moeilijk
+  aan te geven op basis van een systeem waarbij telkens een
+  nieuwe lijn moet worden aangemaakt voor iedere periode waarin
+  het personeelslid een dergelijke bijslag heeft ontvangen.
+</source>
+          <target>
+  Diese Zuschl&#228;ge sind daher definitionsgem&#228;&#223; variabel und
+  schwierig anzugeben auf Basis eines Systems, bei dem f&#252;r jede
+  Periode, in welcher das Personalmitglied einen solchen Zuschlag
+  erhalten hat, eine neue Zeile einzurichten ist.
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[20]">
+        <segment id="/html/body/p[20]">
+          <source>
+  Een dergelijk systeem zou er in extreme gevallen toe kunnen
+  leiden dat een nieuwe lijn moet worden aangemaakt voor &#233;&#233;n dag
+  waarvoor de bijslag verschuldigd is.
+</source>
+          <target>
+  Ein solches System f&#252;hrt im Extremfall dazu, dass f&#252;r einen
+  Tag, f&#252;r den der Zuschlag geschuldet wird, eine neue Zeile
+  einzurichten ist.
+</target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[21]">
+        <segment id="/html/body/p[21]">
+          <source>
+  Daarom mogen deze bedragen per bijslag (dus per referentie)
+  worden gebundeld en in &#233;&#233;n keer worden aangegeven voor een
+  periode die evenwel niet langer mag duren dan het kwartaal.
+  Deze periode is dus:
+</source>
+          <target>
+  Deshalb k&#246;nnen diese Betr&#228;ge pro Zuschlag (d. h. pro Referenz)
+  zusammengefasst und f&#252;r eine Periode, die jedoch nicht l&#228;nger
+  als ein Quartal dauern kann, auf einmal angegeben werden. Diese
+  Periode ist daher:
+</target>
+        </segment>
+      </unit>
+      <group id="/html/body/ul[2]">
+        <unit id="/html/body/ul[2]/li[1]">
+          <segment id="/html/body/ul[2]/li[1]">
+            <source>ofwel het kalenderkwartaal van de aangifte (op voorwaarde
+  dat de lijn van de baremieke wedde waarvan de weddebijslaglijn
+  afhangt het hele kwartaal bestrijkt);
+  </source>
+            <target>das Kalenderquartal der Meldung (vorausgesetzt, dass die
+  Zeile des Tarifgehalts, die f&#252;r die Zeile des Gehaltszuschlags
+  ma&#223;geblich ist, sich &#252;ber das gesamte Quartal erstreckt);
+  </target>
+          </segment>
+        </unit>
+        <unit id="/html/body/ul[2]/li[2]">
+          <segment id="/html/body/ul[2]/li[2]">
+            <source>ofwel de periode tussen de begindatum van het
+  kalenderkwartaal van de aangifte en de einddatum van de lijn
+  van de baremieke wedde waarvan de weddebijslaglijn afhangt
+  (waarbij de lijn van de baremieke wedde in de loop van het
+  kwartaal werd afgesloten);
+  </source>
+            <target>oder die Periode zwischen dem Beginndatum des
+  Kalenderquartals der Meldung und dem Enddatum der Zeile des
+  Tarifgehalts, das f&#252;r die Zeile des Gehaltszuschlags ma&#223;geblich
+  ist (wobei die Zeile des Tarifgehalts im Laufe des Quartals
+  abgeschlossen wurde);
+  </target>
+          </segment>
+        </unit>
+        <unit id="/html/body/ul[2]/li[3]">
+          <segment id="/html/body/ul[2]/li[3]">
+            <source>ofwel de periode tussen de begindatum van de lijn van de
+  baremieke wedde waarvan de weddebijslaglijn afhangt en het
+  einde van het kalenderkwartaal (waarbij een nieuwe lijn van
+  baremieke wedde in de loop van het kwartaal werd geopend);
+  </source>
+            <target>oder die Periode zwischen dem Beginndatum der Zeile des
+  Tarifgehalts, das f&#252;r die Zeile des Gehaltszuschlags ma&#223;geblich
+  ist, und dem Ende des Kalenderquartals (wobei eine neue Zeile
+  des Tarifgehalts im Laufe des Quartals eingerichtet wurde);
+  </target>
+          </segment>
+        </unit>
+        <unit id="/html/body/ul[2]/li[4]">
+          <segment id="/html/body/ul[2]/li[4]">
+            <source>ofwel een van de maanden in het kalenderkwartaal van de
+  aangifte (op voorwaarde dat de lijn van baremieke wedde waarvan
+  de weddebijslaglijn afhangt die hele maand bestrijkt).
+  </source>
+            <target>oder einer der Monate im Kalenderquartal der Meldung
+  (vorausgesetzt, dass die Zeile des Tarifgehalts, die f&#252;r die
+  Zeile des Gehaltszuschlags ma&#223;geblich ist, sich &#252;ber den
+  gesamten Monat erstreckt).
+  </target>
+          </segment>
+        </unit>
+      </group>
+      <unit id="/html/body/p[22]">
+        <segment id="/html/body/p[22]">
+          <source>
+  Kortom, het is de aangever die, door opgave van een begin- en
+  einddatum, de periode bepaalt waarvoor hij, voor eenzelfde
+  bijslag, het aantal eenheden van die bijslag aangeeft, evenals
+  het eenheidsbedrag van de bijslag en het globale bedrag dat hij
+  aan het personeelslid heeft toegekend.&lt;br/&gt;
+  Voor dit type bijslag moet iedere nieuwe lijn een begindatum
+  hebben, die niet voor de begindatum van het aangiftekwartaal
+  mag liggen, alsook een einddatum, die niet na de einddatum van
+  het aangiftekwartaal mag vallen.
+</source>
+          <target>
+  Kurz gefasst: Durch Angabe des Beginn- und Enddatum bestimmt
+  der Meldende, wof&#252;r er f&#252;r einen bestimmten Zuschlag die Anzahl
+  Einheiten dieses Zuschlags angibt, sowie einen Einheitsbetrag
+  dieses Zuschlags und den Gesamtbetrag, den er dem
+  Personalmitglied gew&#228;hrt hat.&lt;br/&gt;
+  F&#252;r diese Art von Zuschlag muss jede neue Zeile ein Beginndatum
+  enthalten, das nicht vor dem Beginndatum des Meldequartals
+  liegen darf, sowie ein Enddatum, das nicht nach dem Enddatum
+  des Meldequartals liegen darf.
+</target>
+        </segment>
+      </unit>
+    </group>
+    <group id="[%locale%][body3]">
+      <unit id="/html/body/p[1]">
+        <segment id="/html/body/p[1]">
+          <source> De begindatum van de lijn van weddebijslag is een onontbeerlijk gegeven. De begindatum moet dus systematisch in elke lijn worden aangegeven. </source>
+          <target> Das Beginndatum der Zeile f&#252;r Gehaltszuschl&#228;ge ist eine unerl&#228;ssliche Angabe. Das Beginndatum muss daher systematisch in jeder Zeile angegeben werden. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[2]">
+        <segment id="/html/body/p[2]">
+          <source> De einddatum is daarentegen in bepaalde omstandigheden verplicht en moet slechts worden ingevuld in die gevallen waarin de lijn moet worden afgesloten. </source>
+          <target> Das Enddatum ist dagegen unter bestimmten Bedingungen obligatorisch und nur in den F&#228;llen einzutragen, in denen die Zeile abgeschlossen werden muss. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[3]">
+        <segment id="/html/body/p[3]">
+          <source> Deze omstandigheden zijn meer bepaald afhankelijk van de wijze van aangifte van de bijslag. </source>
+          <target> Diese Bedingungen sind insbesondere von der Art der Meldung des Zuschlags abh&#228;ngig. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[4]">
+        <segment id="/html/body/p[4]">
+          <source> We onderscheiden twee manieren, naargelang van het type bijslag dat moet worden aangegeven: </source>
+          <target> Wir unterscheiden zwei Arten, je nach Art des Zuschlags, der anzugeben ist: </target>
+        </segment>
+      </unit>
+      <group id="/html/body/ul[1]">
+        <unit id="/html/body/ul[1]/li[1]">
+          <segment id="/html/body/ul[1]/li[1]">
+            <source>forfaitaire bijslagen of percentagebijslagen moeten per periode worden aangegeven, onafhankelijk van het kalenderkwartaal; </source>
+            <target>pauschale Zuschl&#228;ge oder prozentuale Zuschl&#228;ge sind unabh&#228;ngig vom Kalenderquartal pro Periode anzugeben. </target>
+          </segment>
+        </unit>
+        <unit id="/html/body/ul[1]/li[2]">
+          <segment id="/html/body/ul[1]/li[2]">
+            <source>bijslagen per eenheid (per uur of per prestatie) worden aangegeven binnen het kalenderkwartaal. </source>
+            <target>Zuschl&#228;ge pro Einheit (pro Stunde oder pro Leistung) sind innerhalb des Kalenderquartals anzugeben. </target>
+          </segment>
+        </unit>
+      </group>
+      <unit id="/html/body/p[5]">
+        <segment id="/html/body/p[5]">
+          <source> Ongeacht het type bijslag waarop de aangifte betrekking heeft, mag de eerste begindatum van de eerste lijn van weddebijslag in geen geval voor 1 januari 2011 liggen. Deze gegevens zullen immers voor het eerst officieel worden aangegeven bij de DmfA-aangifte van het 1ste kwartaal van 2011. </source>
+          <target> Unabh&#228;ngig von der Art des Zuschlags, auf den sich die Meldung bezieht, kann das Beginndatum jeder Zeile f&#252;r Gehaltszuschl&#228;ge auf keinen Fall vor dem 01.01.2011 liegen. Diese Angaben erfolgen vor der ersten offiziellen Eintragung in die DmfAPPL-Meldung f&#252;r das 1.&#160;Quartal&#160;2011. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/h2[1]">
+        <segment id="/html/body/h2[1]">
+          <source> Forfaitaire bijslagen of percentagebijslagen </source>
+          <target> Pauschale Zuschl&#228;ge oder prozentuale Zuschl&#228;ge </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[6]">
+        <segment id="/html/body/p[6]">
+          <source> Het betreft voornamelijk bijslagen gekoppeld aan het bezitten van een bepaalde graad, het uitoefenen van een bepaalde functie, het slagen voor een examen of het bezitten van een specifieke titel of diploma en zelfs een specifieke beroepservaring. </source>
+          <target> Es handelt sich insbesondere um Zuschl&#228;ge in Verbindung mit einem bestimmten Dienstgrad, dem Aus&#252;ben einer bestimmten Funktion, dem Bestehen einer Pr&#252;fung oder dem Besitz eines bestimmten Titels oder Diploms oder sogar dem Nachweis &#252;ber eine spezifische Berufserfahrung. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[7]">
+        <segment id="/html/body/p[7]">
+          <source> Deze bijslagen worden maandelijks uitbetaald, samen met de wedde van het personeelslid en volgens dezelfde voorwaarden als de wedde. </source>
+          <target> Diese Zuschl&#228;ge werden monatlich ausgezahlt, zusammen mit dem Gehalt des Personalmitglieds und gem&#228;&#223; den gleichen Bedingungen wie denen, die f&#252;r das Gehalt anwendbar sind. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[8]">
+        <segment id="/html/body/p[8]">
+          <source> Voor de aangifte van de begin- en einddata van dit type bijslag wordt dezelfde logica gevolgd als die beschreven in het hoofdstuk over de begin- en einddata van de baremieke wedde. </source>
+          <target> Die Angabe des Beginn- und Enddatums dieser Art von Zuschlag erfolgt nach der gleichen Logik wie jener, die im Kapitel &#252;ber das Beginn- und Enddatum des Tarifgehalts beschrieben wurde. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[9]">
+        <segment id="/html/body/p[9]">
+          <source> Net als bij de baremieke wedde kunnen verschillende weddebijslagen tegelijk worden toegekend. Dit is het geval wanneer het personeelslid tijdens eenzelfde periode verschillende toeslagen ontvangt die in aanmerking kunnen worden genomen voor de berekening van het rustpensioen. </source>
+          <target> Genauso wie beim Tarifgehalt k&#246;nnen verschiedene Gehaltszuschl&#228;ge gleichzeitig gew&#228;hrt werden. Dies ist der Fall, wenn das Personalmitglied w&#228;hrend einer bestimmten Periode verschiedene Zuschl&#228;ge erh&#228;lt, die f&#252;r die Berechnung der Ruhestandspension infrage kommen. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[10]">
+        <segment id="/html/body/p[10]">
+          <source> Voor elk van deze bijslagen moet een afzonderlijke begin- en einddatum en een correcte referentie worden opgegeven. </source>
+          <target> F&#252;r jeden dieser Zuschl&#228;ge ist ein gesondertes Beginn- und Enddatum und eine korrekte Referenz anzugeben. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[11]">
+        <segment id="/html/body/p[11]">
+          <source> Zolang de gegevens m.b.t. de weddebijslag ongewijzigd blijven, hoeft u geen nieuwe lijn aan te maken. De begindatum kan bijgevolg voor de start van het kalenderkwartaal van de aangifte liggen. </source>
+          <target> Solange die Angaben in Bezug auf den Gehaltszuschlag unver&#228;ndert bleiben, m&#252;ssen Sie keine neue Zeile einrichten. Das Beginndatum kann daher vor dem Beginn des Kalenderquartals der Meldung liegen. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[12]">
+        <segment id="/html/body/p[12]">
+          <source> Zodra een van de gegevens van de weddebijslag wijzigt, moet u echter een nieuwe lijn aanmaken met een nieuwe begindatum, en de vorige lijn met een einddatum afsluiten. </source>
+          <target> Sobald sich jedoch eine der Angaben des Gehaltszuschlags &#228;ndert, m&#252;ssen Sie eine neue Zeile mit einem neuen Beginndatum erstellen und die vorangegangene Zeile mit einem Enddatum abschlie&#223;en. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[13]">
+        <segment id="/html/body/p[13]">
+          <source> Deze begin- en einddata mogen dus niet verward worden met de begin- en einddata van de lijn van de baremieke wedde, noch met die van de lijn met de gegevens van de tewerkstelling met betrekking tot de overheidssector, noch met die van de tewerkstellingslijn. </source>
+          <target> Dieses Beginn- und Enddatum ist daher weder mit dem Beginn- und Enddatum der Zeile des Tarifgehalts noch mit der Zeile mit den Angaben &#252;ber die Besch&#228;ftigung im &#246;ffentlichen Sektor oder denen der Besch&#228;ftigungszeile zu verwechseln. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[14]">
+        <segment id="/html/body/p[14]">
+          <source> Voor elke lijn van weddebijslag dient u bij elk kwartaal de begindatum uitdrukkelijk te vermelden. </source>
+          <target> F&#252;r jede Zeile des Gehaltszuschlags m&#252;ssen Sie bei jedem Quartal das Beginndatum ausdr&#252;cklich angeben. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[15]">
+        <segment id="/html/body/p[15]">
+          <source> U moet de einddatum daarentegen enkel aangeven wanneer de lijn moet worden afgesloten, m.a.w. in de gevallen die hieronder worden toegelicht. </source>
+          <target> Das Enddatum m&#252;ssen Sie dagegen nur angeben, wenn die Zeile abgeschlossen werden muss, d. h. in den nachfolgend erl&#228;uterten F&#228;llen. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/h3">
+        <segment id="/html/body/h3">
+          <source> Belangrijke opmerkingen in verband met de einddatum </source>
+          <target> Wichtige Anmerkungen in Bezug auf das Enddatum </target>
+        </segment>
+      </unit>
+      <group id="/html/body/ol">
+        <unit id="/html/body/ol/li[1]">
+          <segment id="/html/body/ol/li[1]">
+            <source>De einddatum van de weddebijslaglijn mag in geen geval later vallen dan de einddatum van de lijn van de baremieke wedde waarvan die afhangt (en mag uiteraard ook niet later vallen dan de einddatum van het kalenderkwartaal waarop de aangifte betrekking heeft). </source>
+            <target>Das Enddatum der Zeile f&#252;r Gehaltszuschl&#228;ge darf auf keinen Fall nach dem Enddatum der Zeile des Tarifgehalts liegen, von der es abh&#228;ngt (selbstverst&#228;ndlich darf es auch nicht nach dem Enddatum des Kalenderquartals liegen, auf das sich die Meldung bezieht). </target>
+          </segment>
+        </unit>
+        <group id="/html/body/ol/li[2]">
+          <unit id="/html/body/ol/li[2]/text()[1]">
+            <segment id="/html/body/ol/li[2]/text()[1]">
+              <source>De afsluiting van een lijn van baremieke wedde leidt niet noodzakelijk tot de afsluiting van de lijn van weddebijslag die daarvan afhangt. Concreet moet u enkel een weddebijslaglijn afsluiten in een van de volgende drie gevallen: </source>
+              <target>Der Abschluss einer Zeile des Tarifgehalts f&#252;hrt nicht unbedingt zum Abschluss der Zeile des Gehaltszuschlags, die davon abh&#228;ngt. Konkret m&#252;ssen Sie nur eine Zeile f&#252;r Gehaltszuschl&#228;ge in einem der drei folgenden F&#228;lle abschlie&#223;en: </target>
+            </segment>
+          </unit>
+          <group id="/html/body/ol/li[2]/ol">
+            <unit id="/html/body/ol/li[2]/ol/li[1]">
+              <segment id="/html/body/ol/li[2]/ol/li[1]">
+                <source>ofwel wijzigt de situatie van de weddebijslag omdat een gegeven wijzigt; </source>
+                <target>entweder &#228;ndert sich die Situation des Gehaltszuschlags, da sich eine Angabe ver&#228;ndert; </target>
+              </segment>
+            </unit>
+            <unit id="/html/body/ol/li[2]/ol/li[2]">
+              <segment id="/html/body/ol/li[2]/ol/li[2]">
+                <source>ofwel verliest het personeelslid het recht op de bijslag (bijvoorbeeld omdat zijn of haar graad of functie is gewijzigd); </source>
+                <target>oder das Personalmitglied verliert den Anspruch auf den Zuschlag (z. B. aufgrund einer Ver&#228;nderung von Dienstgrad oder Funktion); </target>
+              </segment>
+            </unit>
+            <unit id="/html/body/ol/li[2]/ol/li[3]">
+              <segment id="/html/body/ol/li[2]/ol/li[3]">
+                <source>ofwel wordt de baremieke weddelijn definitief afgesloten (de werkrelatie tussen de werknemer en de werkgever is verbroken). </source>
+                <target>oder die Tarifgehaltszeile wird endg&#252;ltig abgeschlossen (das Besch&#228;ftigungsverh&#228;ltnis zwischen dem Arbeitnehmer und dem Arbeitgeber wurde beendet). </target>
+              </segment>
+            </unit>
+          </group>
+        </group>
+      </group>
+      <unit id="/html/body/p[16]">
+        <segment id="/html/body/p[16]">
+          <source> In dit laatste geval moet u alle lijnen van weddebijslag onder de afgesloten lijn van de baremieke wedde afsluiten die, in voorkomend geval, tegelijkertijd werden geopend. </source>
+          <target> Im letztgenannten Fall m&#252;ssen Sie alle Zeilen des Gehaltszuschlags unter der abgeschlossenen Zeile des Tarifgehalts, die ggf. gleichzeitig ge&#246;ffnet waren, vollst&#228;ndig ausf&#252;llen. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/h2[2]">
+        <segment id="/html/body/h2[2]">
+          <source> Bijslagen per eenheid (per uur of per prestatie) </source>
+          <target> Zuschl&#228;ge pro Einheit (pro Stunde oder pro Leistung) </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[17]">
+        <segment id="/html/body/p[17]">
+          <source> Het betreft bijslagen die nu en dan aan het personeelslid worden toegekend als vergoeding voor een prestatie (bijvoorbeeld overuren). </source>
+          <target> Es betrifft Zuschl&#228;ge, die dem Personalmitglied gelegentlich als Entsch&#228;digung f&#252;r eine Leistung (zum Beispiel &#220;berstunden) gew&#228;hrt werden. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[18]">
+        <segment id="/html/body/p[18]">
+          <source> Voor elk van deze bijslagen wordt een vast eenheidsbedrag bepaald, dit is het bedrag dat voor een bepaalde prestatie wordt toegekend (een vast bedrag per overuur bijvoorbeeld). </source>
+          <target> F&#252;r jeden dieser Zuschl&#228;ge wird ein fester Einheitsbetrag festgelegt, d. h. der Betrag, der f&#252;r eine bestimmte Leistung gew&#228;hrt wird (z. B. ein fester Betrag pro &#220;berstunde). </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[19]">
+        <segment id="/html/body/p[19]">
+          <source> Deze bijslagen zijn dus per definitie variabel en zijn moeilijk aan te geven op basis van een systeem waarbij telkens een nieuwe lijn moet worden aangemaakt voor iedere periode waarin het personeelslid een dergelijke bijslag heeft ontvangen. </source>
+          <target> Diese Zuschl&#228;ge sind daher definitionsgem&#228;&#223; variabel und schwierig anzugeben auf Basis eines Systems, bei dem f&#252;r jede Periode, in welcher das Personalmitglied einen solchen Zuschlag erhalten hat, eine neue Zeile einzurichten ist. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[20]">
+        <segment id="/html/body/p[20]">
+          <source> Een dergelijk systeem zou er in extreme gevallen toe kunnen leiden dat een nieuwe lijn moet worden aangemaakt voor &#233;&#233;n dag waarvoor de bijslag verschuldigd is. </source>
+          <target> Ein solches System f&#252;hrt im Extremfall dazu, dass f&#252;r einen Tag, f&#252;r den der Zuschlag geschuldet wird, eine neue Zeile einzurichten ist. </target>
+        </segment>
+      </unit>
+      <unit id="/html/body/p[21]">
+        <segment id="/html/body/p[21]">
+          <source> Daarom mogen deze bedragen per bijslag (dus per referentie) worden gebundeld en in &#233;&#233;n keer worden aangegeven voor een periode die evenwel niet langer mag duren dan het kwartaal. Deze periode is dus: </source>
+          <target> Deshalb k&#246;nnen diese Betr&#228;ge pro Zuschlag (d. h. pro Referenz) zusammengefasst und f&#252;r eine Periode, die jedoch nicht l&#228;nger als ein Quartal dauern kann, auf einmal angegeben werden. Diese Periode ist daher: </target>
+        </segment>
+      </unit>
+      <group id="/html/body/ul[2]">
+        <unit id="/html/body/ul[2]/li[1]">
+          <segment id="/html/body/ul[2]/li[1]">
+            <source>ofwel het kalenderkwartaal van de aangifte (op voorwaarde dat de lijn van de baremieke wedde waarvan de weddebijslaglijn afhangt het hele kwartaal bestrijkt); </source>
+            <target>das Kalenderquartal der Meldung (vorausgesetzt, dass die Zeile des Tarifgehalts, die f&#252;r die Zeile des Gehaltszuschlags ma&#223;geblich ist, sich &#252;ber das gesamte Quartal erstreckt); </target>
+          </segment>
+        </unit>
+        <unit id="/html/body/ul[2]/li[2]">
+          <segment id="/html/body/ul[2]/li[2]">
+            <source>ofwel de periode tussen de begindatum van het kalenderkwartaal van de aangifte en de einddatum van de lijn van de baremieke wedde waarvan de weddebijslaglijn afhangt (waarbij de lijn van de baremieke wedde in de loop van het kwartaal werd afgesloten); </source>
+            <target>oder die Periode zwischen dem Beginndatum des Kalenderquartals der Meldung und dem Enddatum der Zeile des Tarifgehalts, das f&#252;r die Zeile des Gehaltszuschlags ma&#223;geblich ist (wobei die Zeile des Tarifgehalts im Laufe des Quartals abgeschlossen wurde); </target>
+          </segment>
+        </unit>
+        <unit id="/html/body/ul[2]/li[3]">
+          <segment id="/html/body/ul[2]/li[3]">
+            <source>ofwel de periode tussen de begindatum van de lijn van de baremieke wedde waarvan de weddebijslaglijn afhangt en het einde van het kalenderkwartaal (waarbij een nieuwe lijn van baremieke wedde in de loop van het kwartaal werd geopend); </source>
+            <target>oder die Periode zwischen dem Beginndatum der Zeile des Tarifgehalts, das f&#252;r die Zeile des Gehaltszuschlags ma&#223;geblich ist, und dem Ende des Kalenderquartals (wobei eine neue Zeile des Tarifgehalts im Laufe des Quartals eingerichtet wurde); </target>
+          </segment>
+        </unit>
+        <unit id="/html/body/ul[2]/li[4]">
+          <segment id="/html/body/ul[2]/li[4]">
+            <source>ofwel een van de maanden in het kalenderkwartaal van de aangifte (op voorwaarde dat de lijn van baremieke wedde waarvan de weddebijslaglijn afhangt die hele maand bestrijkt). </source>
+            <target>oder einer der Monate im Kalenderquartal der Meldung (vorausgesetzt, dass die Zeile des Tarifgehalts, die f&#252;r die Zeile des Gehaltszuschlags ma&#223;geblich ist, sich &#252;ber den gesamten Monat erstreckt). </target>
+          </segment>
+        </unit>
+      </group>
+      <unit id="/html/body/p[22]">
+        <segment id="/html/body/p[22]">
+          <source> Kortom, het is de aangever die, door opgave van een begin- en einddatum, de periode bepaalt waarvoor hij, voor eenzelfde bijslag, het aantal eenheden van die bijslag aangeeft, evenals het eenheidsbedrag van de bijslag en het globale bedrag dat hij aan het personeelslid heeft toegekend.<g ctype="lb"/> Voor dit type bijslag moet iedere nieuwe lijn een begindatum hebben, die niet voor de begindatum van het aangiftekwartaal mag liggen, alsook een einddatum, die niet na de einddatum van het aangiftekwartaal mag vallen. </source>
+          <target> Kurz gefasst: Durch Angabe des Beginn- und Enddatum bestimmt der Meldende, wof&#252;r er f&#252;r einen bestimmten Zuschlag die Anzahl Einheiten dieses Zuschlags angibt, sowie einen Einheitsbetrag dieses Zuschlags und den Gesamtbetrag, den er dem Personalmitglied gew&#228;hrt hat.<g ctype="lb"/> F&#252;r diese Art von Zuschlag muss jede neue Zeile ein Beginndatum enthalten, das nicht vor dem Beginndatum des Meldequartals liegen darf, sowie ein Enddatum, das nicht nach dem Enddatum des Meldequartals liegen darf. </target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

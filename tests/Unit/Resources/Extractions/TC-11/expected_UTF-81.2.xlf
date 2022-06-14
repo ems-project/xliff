@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 https://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file source-language="en" original="contentType:ouuid_1:revisionId_1" datatype="database" target-language="fr">
+    <body>
+      <trans-unit id="[title_%locale%]">
+        <source xml:lang="en">Foo</source>
+        <target xml:lang="fr" state="needs-translation">Bar</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" original="contentType:ouuid_2:revisionId_2" datatype="database" target-language="fr">
+    <body>
+      <trans-unit id="[title_%locale%]">
+        <source xml:lang="en">Hello</source>
+        <target xml:lang="fr" state="needs-translation">Bonjour</target>
+      </trans-unit>
+      <trans-unit id="[keywords_%locale%]">
+        <source xml:lang="en">test xliff</source>
+        <target xml:lang="fr" state="new"/>
+      </trans-unit>
+      <trans-unit id="[empty]">
+        <source xml:lang="en"/>
+        <target xml:lang="fr" state="final"/>
+      </trans-unit>
+      <group id="[%locale%][body]">
+        <trans-unit restype="x-html-p" id="/html/body/p[1]">
+          <source xml:lang="en"> De begindatum van de lijn van weddebijslag is een onontbeerlijk gegeven. De begindatum moet dus systematisch in elke lijn worden aangegeven. </source>
+          <target xml:lang="fr" state="needs-translation"> Das Beginndatum der Zeile für Gehaltszuschläge ist eine unerlässliche Angabe. Das Beginndatum muss daher systematisch in jeder Zeile angegeben werden. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[2]">
+          <source xml:lang="en"> De einddatum is daarentegen in bepaalde omstandigheden verplicht en moet slechts worden ingevuld in die gevallen waarin de lijn moet worden afgesloten. </source>
+          <target xml:lang="fr" state="needs-translation"> Das Enddatum ist dagegen unter bestimmten Bedingungen obligatorisch und nur in den Fällen einzutragen, in denen die Zeile abgeschlossen werden muss. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[3]">
+          <source xml:lang="en"> Deze omstandigheden zijn meer bepaald afhankelijk van de wijze van aangifte van de bijslag. </source>
+          <target xml:lang="fr" state="needs-translation"> Diese Bedingungen sind insbesondere von der Art der Meldung des Zuschlags abhängig. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[4]">
+          <source xml:lang="en"> We onderscheiden twee manieren, naargelang van het type bijslag dat moet worden aangegeven: </source>
+          <target xml:lang="fr" state="needs-translation"> Wir unterscheiden zwei Arten, je nach Art des Zuschlags, der anzugeben ist: </target>
+        </trans-unit>
+        <group restype="x-html-ul" id="/html/body/ul[1]">
+          <trans-unit restype="listitem" id="/html/body/ul[1]/li[1]">
+            <source xml:lang="en">forfaitaire bijslagen of percentagebijslagen moeten per periode worden aangegeven, onafhankelijk van het kalenderkwartaal; </source>
+            <target xml:lang="fr" state="needs-translation">pauschale Zuschläge oder prozentuale Zuschläge sind unabhängig vom Kalenderquartal pro Periode anzugeben. </target>
+          </trans-unit>
+          <trans-unit restype="listitem" id="/html/body/ul[1]/li[2]">
+            <source xml:lang="en">bijslagen per eenheid (per uur of per prestatie) worden aangegeven binnen het kalenderkwartaal. </source>
+            <target xml:lang="fr" state="needs-translation">Zuschläge pro Einheit (pro Stunde oder pro Leistung) sind innerhalb des Kalenderquartals anzugeben. </target>
+          </trans-unit>
+        </group>
+        <trans-unit restype="x-html-p" id="/html/body/p[5]">
+          <source xml:lang="en"> Ongeacht het type bijslag waarop de aangifte betrekking heeft, mag de eerste begindatum van de eerste lijn van weddebijslag in geen geval voor 1 januari 2011 liggen. Deze gegevens zullen immers voor het eerst officieel worden aangegeven bij de DmfA-aangifte van het 1ste kwartaal van 2011. </source>
+          <target xml:lang="fr" state="needs-translation"> Unabhängig von der Art des Zuschlags, auf den sich die Meldung bezieht, kann das Beginndatum jeder Zeile für Gehaltszuschläge auf keinen Fall vor dem 01.01.2011 liegen. Diese Angaben erfolgen vor der ersten offiziellen Eintragung in die DmfAPPL-Meldung für das 1. Quartal 2011. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-h2" id="/html/body/h2[1]">
+          <source xml:lang="en"> Forfaitaire bijslagen of percentagebijslagen </source>
+          <target xml:lang="fr" state="needs-translation"> Pauschale Zuschläge oder prozentuale Zuschläge </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[6]">
+          <source xml:lang="en"> Het betreft voornamelijk bijslagen gekoppeld aan het bezitten van een bepaalde graad, het uitoefenen van een bepaalde functie, het slagen voor een examen of het bezitten van een specifieke titel of diploma en zelfs een specifieke beroepservaring. </source>
+          <target xml:lang="fr" state="needs-translation"> Es handelt sich insbesondere um Zuschläge in Verbindung mit einem bestimmten Dienstgrad, dem Ausüben einer bestimmten Funktion, dem Bestehen einer Prüfung oder dem Besitz eines bestimmten Titels oder Diploms oder sogar dem Nachweis über eine spezifische Berufserfahrung. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[7]">
+          <source xml:lang="en"> Deze bijslagen worden maandelijks uitbetaald, samen met de wedde van het personeelslid en volgens dezelfde voorwaarden als de wedde. </source>
+          <target xml:lang="fr" state="needs-translation"> Diese Zuschläge werden monatlich ausgezahlt, zusammen mit dem Gehalt des Personalmitglieds und gemäß den gleichen Bedingungen wie denen, die für das Gehalt anwendbar sind. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[8]">
+          <source xml:lang="en"> Voor de aangifte van de begin- en einddata van dit type bijslag wordt dezelfde logica gevolgd als die beschreven in het hoofdstuk over de begin- en einddata van de baremieke wedde. </source>
+          <target xml:lang="fr" state="needs-translation"> Die Angabe des Beginn- und Enddatums dieser Art von Zuschlag erfolgt nach der gleichen Logik wie jener, die im Kapitel über das Beginn- und Enddatum des Tarifgehalts beschrieben wurde. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[9]">
+          <source xml:lang="en"> Net als bij de baremieke wedde kunnen verschillende weddebijslagen tegelijk worden toegekend. Dit is het geval wanneer het personeelslid tijdens eenzelfde periode verschillende toeslagen ontvangt die in aanmerking kunnen worden genomen voor de berekening van het rustpensioen. </source>
+          <target xml:lang="fr" state="needs-translation"> Genauso wie beim Tarifgehalt können verschiedene Gehaltszuschläge gleichzeitig gewährt werden. Dies ist der Fall, wenn das Personalmitglied während einer bestimmten Periode verschiedene Zuschläge erhält, die für die Berechnung der Ruhestandspension infrage kommen. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[10]">
+          <source xml:lang="en"> Voor elk van deze bijslagen moet een afzonderlijke begin- en einddatum en een correcte referentie worden opgegeven. </source>
+          <target xml:lang="fr" state="needs-translation"> Für jeden dieser Zuschläge ist ein gesondertes Beginn- und Enddatum und eine korrekte Referenz anzugeben. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[11]">
+          <source xml:lang="en"> Zolang de gegevens m.b.t. de weddebijslag ongewijzigd blijven, hoeft u geen nieuwe lijn aan te maken. De begindatum kan bijgevolg voor de start van het kalenderkwartaal van de aangifte liggen. </source>
+          <target xml:lang="fr" state="needs-translation"> Solange die Angaben in Bezug auf den Gehaltszuschlag unverändert bleiben, müssen Sie keine neue Zeile einrichten. Das Beginndatum kann daher vor dem Beginn des Kalenderquartals der Meldung liegen. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[12]">
+          <source xml:lang="en"> Zodra een van de gegevens van de weddebijslag wijzigt, moet u echter een nieuwe lijn aanmaken met een nieuwe begindatum, en de vorige lijn met een einddatum afsluiten. </source>
+          <target xml:lang="fr" state="needs-translation"> Sobald sich jedoch eine der Angaben des Gehaltszuschlags ändert, müssen Sie eine neue Zeile mit einem neuen Beginndatum erstellen und die vorangegangene Zeile mit einem Enddatum abschließen. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[13]">
+          <source xml:lang="en"> Deze begin- en einddata mogen dus niet verward worden met de begin- en einddata van de lijn van de baremieke wedde, noch met die van de lijn met de gegevens van de tewerkstelling met betrekking tot de overheidssector, noch met die van de tewerkstellingslijn. </source>
+          <target xml:lang="fr" state="needs-translation"> Dieses Beginn- und Enddatum ist daher weder mit dem Beginn- und Enddatum der Zeile des Tarifgehalts noch mit der Zeile mit den Angaben über die Beschäftigung im öffentlichen Sektor oder denen der Beschäftigungszeile zu verwechseln. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[14]">
+          <source xml:lang="en"> Voor elke lijn van weddebijslag dient u bij elk kwartaal de begindatum uitdrukkelijk te vermelden. </source>
+          <target xml:lang="fr" state="needs-translation"> Für jede Zeile des Gehaltszuschlags müssen Sie bei jedem Quartal das Beginndatum ausdrücklich angeben. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[15]">
+          <source xml:lang="en"> U moet de einddatum daarentegen enkel aangeven wanneer de lijn moet worden afgesloten, m.a.w. in de gevallen die hieronder worden toegelicht. </source>
+          <target xml:lang="fr" state="needs-translation"> Das Enddatum müssen Sie dagegen nur angeben, wenn die Zeile abgeschlossen werden muss, d. h. in den nachfolgend erläuterten Fällen. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-h3" id="/html/body/h3">
+          <source xml:lang="en"> Belangrijke opmerkingen in verband met de einddatum </source>
+          <target xml:lang="fr" state="needs-translation"> Wichtige Anmerkungen in Bezug auf das Enddatum </target>
+        </trans-unit>
+        <group restype="x-html-ol" id="/html/body/ol">
+          <trans-unit restype="listitem" id="/html/body/ol/li[1]">
+            <source xml:lang="en">De einddatum van de weddebijslaglijn mag in geen geval later vallen dan de einddatum van de lijn van de baremieke wedde waarvan die afhangt (en mag uiteraard ook niet later vallen dan de einddatum van het kalenderkwartaal waarop de aangifte betrekking heeft). </source>
+            <target xml:lang="fr" state="needs-translation">Das Enddatum der Zeile für Gehaltszuschläge darf auf keinen Fall nach dem Enddatum der Zeile des Tarifgehalts liegen, von der es abhängt (selbstverständlich darf es auch nicht nach dem Enddatum des Kalenderquartals liegen, auf das sich die Meldung bezieht). </target>
+          </trans-unit>
+          <group restype="listitem" id="/html/body/ol/li[2]">
+            <trans-unit id="/html/body/ol/li[2]/text()[1]">
+              <source xml:lang="en">De afsluiting van een lijn van baremieke wedde leidt niet noodzakelijk tot de afsluiting van de lijn van weddebijslag die daarvan afhangt. Concreet moet u enkel een weddebijslaglijn afsluiten in een van de volgende drie gevallen: </source>
+              <target xml:lang="fr" state="needs-translation">Der Abschluss einer Zeile des Tarifgehalts führt nicht unbedingt zum Abschluss der Zeile des Gehaltszuschlags, die davon abhängt. Konkret müssen Sie nur eine Zeile für Gehaltszuschläge in einem der drei folgenden Fälle abschließen: </target>
+            </trans-unit>
+            <group restype="x-html-ol" id="/html/body/ol/li[2]/ol">
+              <trans-unit restype="listitem" id="/html/body/ol/li[2]/ol/li[1]">
+                <source xml:lang="en">ofwel wijzigt de situatie van de weddebijslag omdat een gegeven wijzigt; </source>
+                <target xml:lang="fr" state="needs-translation">entweder ändert sich die Situation des Gehaltszuschlags, da sich eine Angabe verändert; </target>
+              </trans-unit>
+              <trans-unit restype="listitem" id="/html/body/ol/li[2]/ol/li[2]">
+                <source xml:lang="en">ofwel verliest het personeelslid het recht op de bijslag (bijvoorbeeld omdat zijn of haar graad of functie is gewijzigd); </source>
+                <target xml:lang="fr" state="needs-translation">oder das Personalmitglied verliert den Anspruch auf den Zuschlag (z. B. aufgrund einer Veränderung von Dienstgrad oder Funktion); </target>
+              </trans-unit>
+              <trans-unit restype="listitem" id="/html/body/ol/li[2]/ol/li[3]">
+                <source xml:lang="en">ofwel wordt de baremieke weddelijn definitief afgesloten (de werkrelatie tussen de werknemer en de werkgever is verbroken). </source>
+                <target xml:lang="fr" state="needs-translation">oder die Tarifgehaltszeile wird endgültig abgeschlossen (das Beschäftigungsverhältnis zwischen dem Arbeitnehmer und dem Arbeitgeber wurde beendet). </target>
+              </trans-unit>
+            </group>
+          </group>
+        </group>
+        <trans-unit restype="x-html-p" id="/html/body/p[16]">
+          <source xml:lang="en"> In dit laatste geval moet u alle lijnen van weddebijslag onder de afgesloten lijn van de baremieke wedde afsluiten die, in voorkomend geval, tegelijkertijd werden geopend. </source>
+          <target xml:lang="fr" state="needs-translation"> Im letztgenannten Fall müssen Sie alle Zeilen des Gehaltszuschlags unter der abgeschlossenen Zeile des Tarifgehalts, die ggf. gleichzeitig geöffnet waren, vollständig ausfüllen. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-h2" id="/html/body/h2[2]">
+          <source xml:lang="en"> Bijslagen per eenheid (per uur of per prestatie) </source>
+          <target xml:lang="fr" state="needs-translation"> Zuschläge pro Einheit (pro Stunde oder pro Leistung) </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[17]">
+          <source xml:lang="en"> Het betreft bijslagen die nu en dan aan het personeelslid worden toegekend als vergoeding voor een prestatie (bijvoorbeeld overuren). </source>
+          <target xml:lang="fr" state="needs-translation"> Es betrifft Zuschläge, die dem Personalmitglied gelegentlich als Entschädigung für eine Leistung (zum Beispiel Überstunden) gewährt werden. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[18]">
+          <source xml:lang="en"> Voor elk van deze bijslagen wordt een vast eenheidsbedrag bepaald, dit is het bedrag dat voor een bepaalde prestatie wordt toegekend (een vast bedrag per overuur bijvoorbeeld). </source>
+          <target xml:lang="fr" state="needs-translation"> Für jeden dieser Zuschläge wird ein fester Einheitsbetrag festgelegt, d. h. der Betrag, der für eine bestimmte Leistung gewährt wird (z. B. ein fester Betrag pro Überstunde). </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[19]">
+          <source xml:lang="en"> Deze bijslagen zijn dus per definitie variabel en zijn moeilijk aan te geven op basis van een systeem waarbij telkens een nieuwe lijn moet worden aangemaakt voor iedere periode waarin het personeelslid een dergelijke bijslag heeft ontvangen. </source>
+          <target xml:lang="fr" state="needs-translation"> Diese Zuschläge sind daher definitionsgemäß variabel und schwierig anzugeben auf Basis eines Systems, bei dem für jede Periode, in welcher das Personalmitglied einen solchen Zuschlag erhalten hat, eine neue Zeile einzurichten ist. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[20]">
+          <source xml:lang="en"> Een dergelijk systeem zou er in extreme gevallen toe kunnen leiden dat een nieuwe lijn moet worden aangemaakt voor één dag waarvoor de bijslag verschuldigd is. </source>
+          <target xml:lang="fr" state="needs-translation"> Ein solches System führt im Extremfall dazu, dass für einen Tag, für den der Zuschlag geschuldet wird, eine neue Zeile einzurichten ist. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[21]">
+          <source xml:lang="en"> Daarom mogen deze bedragen per bijslag (dus per referentie) worden gebundeld en in één keer worden aangegeven voor een periode die evenwel niet langer mag duren dan het kwartaal. Deze periode is dus: </source>
+          <target xml:lang="fr" state="needs-translation"> Deshalb können diese Beträge pro Zuschlag (d. h. pro Referenz) zusammengefasst und für eine Periode, die jedoch nicht länger als ein Quartal dauern kann, auf einmal angegeben werden. Diese Periode ist daher: </target>
+        </trans-unit>
+        <group restype="x-html-ul" id="/html/body/ul[2]">
+          <trans-unit restype="listitem" id="/html/body/ul[2]/li[1]">
+            <source xml:lang="en">ofwel het kalenderkwartaal van de aangifte (op voorwaarde dat de lijn van de baremieke wedde waarvan de weddebijslaglijn afhangt het hele kwartaal bestrijkt); </source>
+            <target xml:lang="fr" state="needs-translation">das Kalenderquartal der Meldung (vorausgesetzt, dass die Zeile des Tarifgehalts, die für die Zeile des Gehaltszuschlags maßgeblich ist, sich über das gesamte Quartal erstreckt); </target>
+          </trans-unit>
+          <trans-unit restype="listitem" id="/html/body/ul[2]/li[2]">
+            <source xml:lang="en">ofwel de periode tussen de begindatum van het kalenderkwartaal van de aangifte en de einddatum van de lijn van de baremieke wedde waarvan de weddebijslaglijn afhangt (waarbij de lijn van de baremieke wedde in de loop van het kwartaal werd afgesloten); </source>
+            <target xml:lang="fr" state="needs-translation">oder die Periode zwischen dem Beginndatum des Kalenderquartals der Meldung und dem Enddatum der Zeile des Tarifgehalts, das für die Zeile des Gehaltszuschlags maßgeblich ist (wobei die Zeile des Tarifgehalts im Laufe des Quartals abgeschlossen wurde); </target>
+          </trans-unit>
+          <trans-unit restype="listitem" id="/html/body/ul[2]/li[3]">
+            <source xml:lang="en">ofwel de periode tussen de begindatum van de lijn van de baremieke wedde waarvan de weddebijslaglijn afhangt en het einde van het kalenderkwartaal (waarbij een nieuwe lijn van baremieke wedde in de loop van het kwartaal werd geopend); </source>
+            <target xml:lang="fr" state="needs-translation">oder die Periode zwischen dem Beginndatum der Zeile des Tarifgehalts, das für die Zeile des Gehaltszuschlags maßgeblich ist, und dem Ende des Kalenderquartals (wobei eine neue Zeile des Tarifgehalts im Laufe des Quartals eingerichtet wurde); </target>
+          </trans-unit>
+          <trans-unit restype="listitem" id="/html/body/ul[2]/li[4]">
+            <source xml:lang="en">ofwel een van de maanden in het kalenderkwartaal van de aangifte (op voorwaarde dat de lijn van baremieke wedde waarvan de weddebijslaglijn afhangt die hele maand bestrijkt). </source>
+            <target xml:lang="fr" state="needs-translation">oder einer der Monate im Kalenderquartal der Meldung (vorausgesetzt, dass die Zeile des Tarifgehalts, die für die Zeile des Gehaltszuschlags maßgeblich ist, sich über den gesamten Monat erstreckt). </target>
+          </trans-unit>
+        </group>
+        <trans-unit restype="x-html-p" id="/html/body/p[22]">
+          <source xml:lang="en"> Kortom, het is de aangever die, door opgave van een begin- en einddatum, de periode bepaalt waarvoor hij, voor eenzelfde bijslag, het aantal eenheden van die bijslag aangeeft, evenals het eenheidsbedrag van de bijslag en het globale bedrag dat hij aan het personeelslid heeft toegekend.<g ctype="lb"/> Voor dit type bijslag moet iedere nieuwe lijn een begindatum hebben, die niet voor de begindatum van het aangiftekwartaal mag liggen, alsook een einddatum, die niet na de einddatum van het aangiftekwartaal mag vallen. </source>
+          <target xml:lang="fr" state="needs-translation"> Kurz gefasst: Durch Angabe des Beginn- und Enddatum bestimmt der Meldende, wofür er für einen bestimmten Zuschlag die Anzahl Einheiten dieses Zuschlags angibt, sowie einen Einheitsbetrag dieses Zuschlags und den Gesamtbetrag, den er dem Personalmitglied gewährt hat.<g ctype="lb"/> Für diese Art von Zuschlag muss jede neue Zeile ein Beginndatum enthalten, das nicht vor dem Beginndatum des Meldequartals liegen darf, sowie ein Enddatum, das nicht nach dem Enddatum des Meldequartals liegen darf. </target>
+        </trans-unit>
+      </group>
+      <group id="[%locale%][body2]">
+        <trans-unit restype="x-html-p" id="/html/body/p[1]">
+          <source xml:lang="en">
+  De begindatum van de lijn van weddebijslag is een onontbeerlijk
+  gegeven. De begindatum moet dus systematisch in elke lijn
+  worden aangegeven.
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Das Beginndatum der Zeile für Gehaltszuschläge ist eine
+  unerlässliche Angabe. Das Beginndatum muss daher systematisch
+  in jeder Zeile angegeben werden.
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[2]">
+          <source xml:lang="en">
+  De einddatum is daarentegen in bepaalde omstandigheden
+  verplicht en moet slechts worden ingevuld in die gevallen
+  waarin de lijn moet worden afgesloten.
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Das Enddatum ist dagegen unter bestimmten Bedingungen
+  obligatorisch und nur in den Fällen einzutragen, in denen die
+  Zeile abgeschlossen werden muss.
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[3]">
+          <source xml:lang="en">
+  Deze omstandigheden zijn meer bepaald afhankelijk van de wijze
+  van aangifte van de bijslag.
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Diese Bedingungen sind insbesondere von der Art der Meldung des
+  Zuschlags abhängig.
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[4]">
+          <source xml:lang="en">
+  We onderscheiden twee manieren, naargelang van het type bijslag
+  dat moet worden aangegeven:
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Wir unterscheiden zwei Arten, je nach Art des Zuschlags, der
+  anzugeben ist:
+</target>
+        </trans-unit>
+        <group restype="x-html-ul" id="/html/body/ul[1]">
+          <trans-unit restype="listitem" id="/html/body/ul[1]/li[1]">
+            <source xml:lang="en">forfaitaire bijslagen of percentagebijslagen moeten per
+  periode worden aangegeven, onafhankelijk van het
+  kalenderkwartaal;
+  </source>
+            <target xml:lang="fr" state="needs-translation">pauschale Zuschläge oder prozentuale Zuschläge sind
+  unabhängig vom Kalenderquartal pro Periode anzugeben.
+  </target>
+          </trans-unit>
+          <trans-unit restype="listitem" id="/html/body/ul[1]/li[2]">
+            <source xml:lang="en">bijslagen per eenheid (per uur of per prestatie) worden
+  aangegeven binnen het kalenderkwartaal.
+  </source>
+            <target xml:lang="fr" state="needs-translation">Zuschläge pro Einheit (pro Stunde oder pro Leistung) sind
+  innerhalb des Kalenderquartals anzugeben.
+  </target>
+          </trans-unit>
+        </group>
+        <trans-unit restype="x-html-p" id="/html/body/p[5]">
+          <source xml:lang="en">
+  Ongeacht het type bijslag waarop de aangifte betrekking heeft,
+  mag de eerste begindatum van de eerste lijn van weddebijslag in
+  geen geval voor 1 januari 2011 liggen. Deze gegevens zullen
+  immers voor het eerst officieel worden aangegeven bij de
+  DmfA-aangifte van het 1ste kwartaal van 2011.
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Unabhängig von der Art des Zuschlags, auf den sich die Meldung
+  bezieht, kann das Beginndatum jeder Zeile für Gehaltszuschläge
+  auf keinen Fall vor dem 01.01.2011 liegen. Diese Angaben
+  erfolgen vor der ersten offiziellen Eintragung in die
+  DmfAPPL-Meldung für das 1. Quartal 2011.
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-h2" id="/html/body/h2[1]">
+          <source xml:lang="en">
+  Forfaitaire bijslagen of percentagebijslagen
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Pauschale Zuschläge oder prozentuale Zuschläge
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[6]">
+          <source xml:lang="en">
+  Het betreft voornamelijk bijslagen gekoppeld aan het bezitten
+  van een bepaalde graad, het uitoefenen van een bepaalde
+  functie, het slagen voor een examen of het bezitten van een
+  specifieke titel of diploma en zelfs een specifieke
+  beroepservaring.
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Es handelt sich insbesondere um Zuschläge in Verbindung mit
+  einem bestimmten Dienstgrad, dem Ausüben einer bestimmten
+  Funktion, dem Bestehen einer Prüfung oder dem Besitz eines
+  bestimmten Titels oder Diploms oder sogar dem Nachweis über
+  eine spezifische Berufserfahrung.
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[7]">
+          <source xml:lang="en">
+  Deze bijslagen worden maandelijks uitbetaald, samen met de
+  wedde van het personeelslid en volgens dezelfde voorwaarden als
+  de wedde.
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Diese Zuschläge werden monatlich ausgezahlt, zusammen mit dem
+  Gehalt des Personalmitglieds und gemäß den gleichen Bedingungen
+  wie denen, die für das Gehalt anwendbar sind.
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[8]">
+          <source xml:lang="en">
+  Voor de aangifte van de begin- en einddata van dit type bijslag
+  wordt dezelfde logica gevolgd als die beschreven in het
+  hoofdstuk over de begin- en einddata van de baremieke wedde.
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Die Angabe des Beginn- und Enddatums dieser Art von Zuschlag
+  erfolgt nach der gleichen Logik wie jener, die im Kapitel über
+  das Beginn- und Enddatum des Tarifgehalts beschrieben wurde.
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[9]">
+          <source xml:lang="en">
+  Net als bij de baremieke wedde kunnen verschillende
+  weddebijslagen tegelijk worden toegekend. Dit is het geval
+  wanneer het personeelslid tijdens eenzelfde periode
+  verschillende toeslagen ontvangt die in aanmerking kunnen
+  worden genomen voor de berekening van het rustpensioen.
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Genauso wie beim Tarifgehalt können verschiedene
+  Gehaltszuschläge gleichzeitig gewährt werden. Dies ist der
+  Fall, wenn das Personalmitglied während einer bestimmten
+  Periode verschiedene Zuschläge erhält, die für die Berechnung
+  der Ruhestandspension infrage kommen.
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[10]">
+          <source xml:lang="en">
+  Voor elk van deze bijslagen moet een afzonderlijke begin- en
+  einddatum en een correcte referentie worden opgegeven.
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Für jeden dieser Zuschläge ist ein gesondertes Beginn- und
+  Enddatum und eine korrekte Referenz anzugeben.
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[11]">
+          <source xml:lang="en">
+  Zolang de gegevens m.b.t. de weddebijslag ongewijzigd blijven,
+  hoeft u geen nieuwe lijn aan te maken. De begindatum kan
+  bijgevolg voor de start van het kalenderkwartaal van de
+  aangifte liggen.
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Solange die Angaben in Bezug auf den Gehaltszuschlag
+  unverändert bleiben, müssen Sie keine neue Zeile einrichten.
+  Das Beginndatum kann daher vor dem Beginn des Kalenderquartals
+  der Meldung liegen.
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[12]">
+          <source xml:lang="en">
+  Zodra een van de gegevens van de weddebijslag wijzigt, moet u
+  echter een nieuwe lijn aanmaken met een nieuwe begindatum, en
+  de vorige lijn met een einddatum afsluiten.
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Sobald sich jedoch eine der Angaben des Gehaltszuschlags
+  ändert, müssen Sie eine neue Zeile mit einem neuen Beginndatum
+  erstellen und die vorangegangene Zeile mit einem Enddatum
+  abschließen.
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[13]">
+          <source xml:lang="en">
+  Deze begin- en einddata mogen dus niet verward worden met de
+  begin- en einddata van de lijn van de baremieke wedde, noch met
+  die van de lijn met de gegevens van de tewerkstelling met
+  betrekking tot de overheidssector, noch met die van de
+  tewerkstellingslijn.
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Dieses Beginn- und Enddatum ist daher weder mit dem Beginn- und
+  Enddatum der Zeile des Tarifgehalts noch mit der Zeile mit den
+  Angaben über die Beschäftigung im öffentlichen Sektor oder
+  denen der Beschäftigungszeile zu verwechseln.
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[14]">
+          <source xml:lang="en">
+  Voor elke lijn van weddebijslag dient u bij elk kwartaal de
+  begindatum uitdrukkelijk te vermelden.
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Für jede Zeile des Gehaltszuschlags müssen Sie bei jedem
+  Quartal das Beginndatum ausdrücklich angeben.
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[15]">
+          <source xml:lang="en">
+  U moet de einddatum daarentegen enkel aangeven wanneer de lijn
+  moet worden afgesloten, m.a.w. in de gevallen die hieronder
+  worden toegelicht.
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Das Enddatum müssen Sie dagegen nur angeben, wenn die Zeile
+  abgeschlossen werden muss, d. h. in den nachfolgend erläuterten
+  Fällen.
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-h3" id="/html/body/h3">
+          <source xml:lang="en">
+  Belangrijke opmerkingen in verband met de einddatum
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Wichtige Anmerkungen in Bezug auf das Enddatum
+</target>
+        </trans-unit>
+        <group restype="x-html-ol" id="/html/body/ol">
+          <trans-unit restype="listitem" id="/html/body/ol/li[1]">
+            <source xml:lang="en">De einddatum van de weddebijslaglijn mag in geen geval
+  later vallen dan de einddatum van de lijn van de baremieke
+  wedde waarvan die afhangt (en mag uiteraard ook niet later
+  vallen dan de einddatum van het kalenderkwartaal waarop de
+  aangifte betrekking heeft).
+  </source>
+            <target xml:lang="fr" state="needs-translation">Das Enddatum der Zeile für Gehaltszuschläge darf auf keinen
+  Fall nach dem Enddatum der Zeile des Tarifgehalts liegen, von
+  der es abhängt (selbstverständlich darf es auch nicht nach dem
+  Enddatum des Kalenderquartals liegen, auf das sich die Meldung
+  bezieht).
+  </target>
+          </trans-unit>
+          <group restype="listitem" id="/html/body/ol/li[2]">
+            <trans-unit id="/html/body/ol/li[2]/text()[1]">
+              <source xml:lang="en">De afsluiting van een lijn van baremieke wedde leidt niet noodzakelijk tot de afsluiting van de lijn van weddebijslag die daarvan afhangt. Concreet moet u enkel een weddebijslaglijn afsluiten in een van de volgende drie gevallen: </source>
+              <target xml:lang="fr" state="needs-translation">Der Abschluss einer Zeile des Tarifgehalts führt nicht unbedingt zum Abschluss der Zeile des Gehaltszuschlags, die davon abhängt. Konkret müssen Sie nur eine Zeile für Gehaltszuschläge in einem der drei folgenden Fälle abschließen: </target>
+            </trans-unit>
+            <group restype="x-html-ol" id="/html/body/ol/li[2]/ol">
+              <trans-unit restype="listitem" id="/html/body/ol/li[2]/ol/li[1]">
+                <source xml:lang="en">ofwel wijzigt de situatie van de weddebijslag omdat een
+      gegeven wijzigt;
+      </source>
+                <target xml:lang="fr" state="needs-translation">entweder ändert sich die Situation des
+      Gehaltszuschlags, da sich eine Angabe verändert;
+      </target>
+              </trans-unit>
+              <trans-unit restype="listitem" id="/html/body/ol/li[2]/ol/li[2]">
+                <source xml:lang="en">ofwel verliest het personeelslid het recht op de
+      bijslag (bijvoorbeeld omdat zijn of haar graad of functie
+      is gewijzigd);
+      </source>
+                <target xml:lang="fr" state="needs-translation">oder das Personalmitglied verliert den Anspruch auf den
+      Zuschlag (z. B. aufgrund einer Veränderung von Dienstgrad
+      oder Funktion);
+      </target>
+              </trans-unit>
+              <trans-unit restype="listitem" id="/html/body/ol/li[2]/ol/li[3]">
+                <source xml:lang="en">ofwel wordt de baremieke weddelijn definitief
+      afgesloten (de werkrelatie tussen de werknemer en de
+      werkgever is verbroken).
+      </source>
+                <target xml:lang="fr" state="needs-translation">oder die Tarifgehaltszeile wird endgültig abgeschlossen
+      (das Beschäftigungsverhältnis zwischen dem Arbeitnehmer und
+      dem Arbeitgeber wurde beendet).
+      </target>
+              </trans-unit>
+            </group>
+          </group>
+        </group>
+        <trans-unit restype="x-html-p" id="/html/body/p[16]">
+          <source xml:lang="en">
+  In dit laatste geval moet u alle lijnen van weddebijslag onder
+  de afgesloten lijn van de baremieke wedde afsluiten die, in
+  voorkomend geval, tegelijkertijd werden geopend.
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Im letztgenannten Fall müssen Sie alle Zeilen des
+  Gehaltszuschlags unter der abgeschlossenen Zeile des
+  Tarifgehalts, die ggf. gleichzeitig geöffnet waren, vollständig
+  ausfüllen.
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-h2" id="/html/body/h2[2]">
+          <source xml:lang="en">
+  Bijslagen per eenheid (per uur of per prestatie)
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Zuschläge pro Einheit (pro Stunde oder pro Leistung)
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[17]">
+          <source xml:lang="en">
+  Het betreft bijslagen die nu en dan aan het personeelslid
+  worden toegekend als vergoeding voor een prestatie
+  (bijvoorbeeld overuren).
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Es betrifft Zuschläge, die dem Personalmitglied gelegentlich
+  als Entschädigung für eine Leistung (zum Beispiel Überstunden)
+  gewährt werden.
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[18]">
+          <source xml:lang="en">
+  Voor elk van deze bijslagen wordt een vast eenheidsbedrag
+  bepaald, dit is het bedrag dat voor een bepaalde prestatie
+  wordt toegekend (een vast bedrag per overuur bijvoorbeeld).
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Für jeden dieser Zuschläge wird ein fester Einheitsbetrag
+  festgelegt, d. h. der Betrag, der für eine bestimmte Leistung
+  gewährt wird (z. B. ein fester Betrag pro Überstunde).
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[19]">
+          <source xml:lang="en">
+  Deze bijslagen zijn dus per definitie variabel en zijn moeilijk
+  aan te geven op basis van een systeem waarbij telkens een
+  nieuwe lijn moet worden aangemaakt voor iedere periode waarin
+  het personeelslid een dergelijke bijslag heeft ontvangen.
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Diese Zuschläge sind daher definitionsgemäß variabel und
+  schwierig anzugeben auf Basis eines Systems, bei dem für jede
+  Periode, in welcher das Personalmitglied einen solchen Zuschlag
+  erhalten hat, eine neue Zeile einzurichten ist.
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[20]">
+          <source xml:lang="en">
+  Een dergelijk systeem zou er in extreme gevallen toe kunnen
+  leiden dat een nieuwe lijn moet worden aangemaakt voor één dag
+  waarvoor de bijslag verschuldigd is.
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Ein solches System führt im Extremfall dazu, dass für einen
+  Tag, für den der Zuschlag geschuldet wird, eine neue Zeile
+  einzurichten ist.
+</target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[21]">
+          <source xml:lang="en">
+  Daarom mogen deze bedragen per bijslag (dus per referentie)
+  worden gebundeld en in één keer worden aangegeven voor een
+  periode die evenwel niet langer mag duren dan het kwartaal.
+  Deze periode is dus:
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Deshalb können diese Beträge pro Zuschlag (d. h. pro Referenz)
+  zusammengefasst und für eine Periode, die jedoch nicht länger
+  als ein Quartal dauern kann, auf einmal angegeben werden. Diese
+  Periode ist daher:
+</target>
+        </trans-unit>
+        <group restype="x-html-ul" id="/html/body/ul[2]">
+          <trans-unit restype="listitem" id="/html/body/ul[2]/li[1]">
+            <source xml:lang="en">ofwel het kalenderkwartaal van de aangifte (op voorwaarde
+  dat de lijn van de baremieke wedde waarvan de weddebijslaglijn
+  afhangt het hele kwartaal bestrijkt);
+  </source>
+            <target xml:lang="fr" state="needs-translation">das Kalenderquartal der Meldung (vorausgesetzt, dass die
+  Zeile des Tarifgehalts, die für die Zeile des Gehaltszuschlags
+  maßgeblich ist, sich über das gesamte Quartal erstreckt);
+  </target>
+          </trans-unit>
+          <trans-unit restype="listitem" id="/html/body/ul[2]/li[2]">
+            <source xml:lang="en">ofwel de periode tussen de begindatum van het
+  kalenderkwartaal van de aangifte en de einddatum van de lijn
+  van de baremieke wedde waarvan de weddebijslaglijn afhangt
+  (waarbij de lijn van de baremieke wedde in de loop van het
+  kwartaal werd afgesloten);
+  </source>
+            <target xml:lang="fr" state="needs-translation">oder die Periode zwischen dem Beginndatum des
+  Kalenderquartals der Meldung und dem Enddatum der Zeile des
+  Tarifgehalts, das für die Zeile des Gehaltszuschlags maßgeblich
+  ist (wobei die Zeile des Tarifgehalts im Laufe des Quartals
+  abgeschlossen wurde);
+  </target>
+          </trans-unit>
+          <trans-unit restype="listitem" id="/html/body/ul[2]/li[3]">
+            <source xml:lang="en">ofwel de periode tussen de begindatum van de lijn van de
+  baremieke wedde waarvan de weddebijslaglijn afhangt en het
+  einde van het kalenderkwartaal (waarbij een nieuwe lijn van
+  baremieke wedde in de loop van het kwartaal werd geopend);
+  </source>
+            <target xml:lang="fr" state="needs-translation">oder die Periode zwischen dem Beginndatum der Zeile des
+  Tarifgehalts, das für die Zeile des Gehaltszuschlags maßgeblich
+  ist, und dem Ende des Kalenderquartals (wobei eine neue Zeile
+  des Tarifgehalts im Laufe des Quartals eingerichtet wurde);
+  </target>
+          </trans-unit>
+          <trans-unit restype="listitem" id="/html/body/ul[2]/li[4]">
+            <source xml:lang="en">ofwel een van de maanden in het kalenderkwartaal van de
+  aangifte (op voorwaarde dat de lijn van baremieke wedde waarvan
+  de weddebijslaglijn afhangt die hele maand bestrijkt).
+  </source>
+            <target xml:lang="fr" state="needs-translation">oder einer der Monate im Kalenderquartal der Meldung
+  (vorausgesetzt, dass die Zeile des Tarifgehalts, die für die
+  Zeile des Gehaltszuschlags maßgeblich ist, sich über den
+  gesamten Monat erstreckt).
+  </target>
+          </trans-unit>
+        </group>
+        <trans-unit restype="x-html-p" id="/html/body/p[22]">
+          <source xml:lang="en">
+  Kortom, het is de aangever die, door opgave van een begin- en
+  einddatum, de periode bepaalt waarvoor hij, voor eenzelfde
+  bijslag, het aantal eenheden van die bijslag aangeeft, evenals
+  het eenheidsbedrag van de bijslag en het globale bedrag dat hij
+  aan het personeelslid heeft toegekend.&lt;br/&gt;
+  Voor dit type bijslag moet iedere nieuwe lijn een begindatum
+  hebben, die niet voor de begindatum van het aangiftekwartaal
+  mag liggen, alsook een einddatum, die niet na de einddatum van
+  het aangiftekwartaal mag vallen.
+</source>
+          <target xml:lang="fr" state="needs-translation">
+  Kurz gefasst: Durch Angabe des Beginn- und Enddatum bestimmt
+  der Meldende, wofür er für einen bestimmten Zuschlag die Anzahl
+  Einheiten dieses Zuschlags angibt, sowie einen Einheitsbetrag
+  dieses Zuschlags und den Gesamtbetrag, den er dem
+  Personalmitglied gewährt hat.&lt;br/&gt;
+  Für diese Art von Zuschlag muss jede neue Zeile ein Beginndatum
+  enthalten, das nicht vor dem Beginndatum des Meldequartals
+  liegen darf, sowie ein Enddatum, das nicht nach dem Enddatum
+  des Meldequartals liegen darf.
+</target>
+        </trans-unit>
+      </group>
+      <group id="[%locale%][body3]">
+        <trans-unit restype="x-html-p" id="/html/body/p[1]">
+          <source xml:lang="en"> De begindatum van de lijn van weddebijslag is een onontbeerlijk gegeven. De begindatum moet dus systematisch in elke lijn worden aangegeven. </source>
+          <target xml:lang="fr" state="final"> Das Beginndatum der Zeile für Gehaltszuschläge ist eine unerlässliche Angabe. Das Beginndatum muss daher systematisch in jeder Zeile angegeben werden. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[2]">
+          <source xml:lang="en"> De einddatum is daarentegen in bepaalde omstandigheden verplicht en moet slechts worden ingevuld in die gevallen waarin de lijn moet worden afgesloten. </source>
+          <target xml:lang="fr" state="final"> Das Enddatum ist dagegen unter bestimmten Bedingungen obligatorisch und nur in den Fällen einzutragen, in denen die Zeile abgeschlossen werden muss. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[3]">
+          <source xml:lang="en"> Deze omstandigheden zijn meer bepaald afhankelijk van de wijze van aangifte van de bijslag. </source>
+          <target xml:lang="fr" state="final"> Diese Bedingungen sind insbesondere von der Art der Meldung des Zuschlags abhängig. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[4]">
+          <source xml:lang="en"> We onderscheiden twee manieren, naargelang van het type bijslag dat moet worden aangegeven: </source>
+          <target xml:lang="fr" state="final"> Wir unterscheiden zwei Arten, je nach Art des Zuschlags, der anzugeben ist: </target>
+        </trans-unit>
+        <group restype="x-html-ul" id="/html/body/ul[1]">
+          <trans-unit restype="listitem" id="/html/body/ul[1]/li[1]">
+            <source xml:lang="en">forfaitaire bijslagen of percentagebijslagen moeten per periode worden aangegeven, onafhankelijk van het kalenderkwartaal; </source>
+            <target xml:lang="fr" state="final">pauschale Zuschläge oder prozentuale Zuschläge sind unabhängig vom Kalenderquartal pro Periode anzugeben. </target>
+          </trans-unit>
+          <trans-unit restype="listitem" id="/html/body/ul[1]/li[2]">
+            <source xml:lang="en">bijslagen per eenheid (per uur of per prestatie) worden aangegeven binnen het kalenderkwartaal. </source>
+            <target xml:lang="fr" state="final">Zuschläge pro Einheit (pro Stunde oder pro Leistung) sind innerhalb des Kalenderquartals anzugeben. </target>
+          </trans-unit>
+        </group>
+        <trans-unit restype="x-html-p" id="/html/body/p[5]">
+          <source xml:lang="en"> Ongeacht het type bijslag waarop de aangifte betrekking heeft, mag de eerste begindatum van de eerste lijn van weddebijslag in geen geval voor 1 januari 2011 liggen. Deze gegevens zullen immers voor het eerst officieel worden aangegeven bij de DmfA-aangifte van het 1ste kwartaal van 2011. </source>
+          <target xml:lang="fr" state="final"> Unabhängig von der Art des Zuschlags, auf den sich die Meldung bezieht, kann das Beginndatum jeder Zeile für Gehaltszuschläge auf keinen Fall vor dem 01.01.2011 liegen. Diese Angaben erfolgen vor der ersten offiziellen Eintragung in die DmfAPPL-Meldung für das 1. Quartal 2011. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-h2" id="/html/body/h2[1]">
+          <source xml:lang="en"> Forfaitaire bijslagen of percentagebijslagen </source>
+          <target xml:lang="fr" state="final"> Pauschale Zuschläge oder prozentuale Zuschläge </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[6]">
+          <source xml:lang="en"> Het betreft voornamelijk bijslagen gekoppeld aan het bezitten van een bepaalde graad, het uitoefenen van een bepaalde functie, het slagen voor een examen of het bezitten van een specifieke titel of diploma en zelfs een specifieke beroepservaring. </source>
+          <target xml:lang="fr" state="final"> Es handelt sich insbesondere um Zuschläge in Verbindung mit einem bestimmten Dienstgrad, dem Ausüben einer bestimmten Funktion, dem Bestehen einer Prüfung oder dem Besitz eines bestimmten Titels oder Diploms oder sogar dem Nachweis über eine spezifische Berufserfahrung. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[7]">
+          <source xml:lang="en"> Deze bijslagen worden maandelijks uitbetaald, samen met de wedde van het personeelslid en volgens dezelfde voorwaarden als de wedde. </source>
+          <target xml:lang="fr" state="final"> Diese Zuschläge werden monatlich ausgezahlt, zusammen mit dem Gehalt des Personalmitglieds und gemäß den gleichen Bedingungen wie denen, die für das Gehalt anwendbar sind. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[8]">
+          <source xml:lang="en"> Voor de aangifte van de begin- en einddata van dit type bijslag wordt dezelfde logica gevolgd als die beschreven in het hoofdstuk over de begin- en einddata van de baremieke wedde. </source>
+          <target xml:lang="fr" state="final"> Die Angabe des Beginn- und Enddatums dieser Art von Zuschlag erfolgt nach der gleichen Logik wie jener, die im Kapitel über das Beginn- und Enddatum des Tarifgehalts beschrieben wurde. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[9]">
+          <source xml:lang="en"> Net als bij de baremieke wedde kunnen verschillende weddebijslagen tegelijk worden toegekend. Dit is het geval wanneer het personeelslid tijdens eenzelfde periode verschillende toeslagen ontvangt die in aanmerking kunnen worden genomen voor de berekening van het rustpensioen. </source>
+          <target xml:lang="fr" state="final"> Genauso wie beim Tarifgehalt können verschiedene Gehaltszuschläge gleichzeitig gewährt werden. Dies ist der Fall, wenn das Personalmitglied während einer bestimmten Periode verschiedene Zuschläge erhält, die für die Berechnung der Ruhestandspension infrage kommen. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[10]">
+          <source xml:lang="en"> Voor elk van deze bijslagen moet een afzonderlijke begin- en einddatum en een correcte referentie worden opgegeven. </source>
+          <target xml:lang="fr" state="final"> Für jeden dieser Zuschläge ist ein gesondertes Beginn- und Enddatum und eine korrekte Referenz anzugeben. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[11]">
+          <source xml:lang="en"> Zolang de gegevens m.b.t. de weddebijslag ongewijzigd blijven, hoeft u geen nieuwe lijn aan te maken. De begindatum kan bijgevolg voor de start van het kalenderkwartaal van de aangifte liggen. </source>
+          <target xml:lang="fr" state="final"> Solange die Angaben in Bezug auf den Gehaltszuschlag unverändert bleiben, müssen Sie keine neue Zeile einrichten. Das Beginndatum kann daher vor dem Beginn des Kalenderquartals der Meldung liegen. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[12]">
+          <source xml:lang="en"> Zodra een van de gegevens van de weddebijslag wijzigt, moet u echter een nieuwe lijn aanmaken met een nieuwe begindatum, en de vorige lijn met een einddatum afsluiten. </source>
+          <target xml:lang="fr" state="final"> Sobald sich jedoch eine der Angaben des Gehaltszuschlags ändert, müssen Sie eine neue Zeile mit einem neuen Beginndatum erstellen und die vorangegangene Zeile mit einem Enddatum abschließen. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[13]">
+          <source xml:lang="en"> Deze begin- en einddata mogen dus niet verward worden met de begin- en einddata van de lijn van de baremieke wedde, noch met die van de lijn met de gegevens van de tewerkstelling met betrekking tot de overheidssector, noch met die van de tewerkstellingslijn. </source>
+          <target xml:lang="fr" state="final"> Dieses Beginn- und Enddatum ist daher weder mit dem Beginn- und Enddatum der Zeile des Tarifgehalts noch mit der Zeile mit den Angaben über die Beschäftigung im öffentlichen Sektor oder denen der Beschäftigungszeile zu verwechseln. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[14]">
+          <source xml:lang="en"> Voor elke lijn van weddebijslag dient u bij elk kwartaal de begindatum uitdrukkelijk te vermelden. </source>
+          <target xml:lang="fr" state="final"> Für jede Zeile des Gehaltszuschlags müssen Sie bei jedem Quartal das Beginndatum ausdrücklich angeben. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[15]">
+          <source xml:lang="en"> U moet de einddatum daarentegen enkel aangeven wanneer de lijn moet worden afgesloten, m.a.w. in de gevallen die hieronder worden toegelicht. </source>
+          <target xml:lang="fr" state="final"> Das Enddatum müssen Sie dagegen nur angeben, wenn die Zeile abgeschlossen werden muss, d. h. in den nachfolgend erläuterten Fällen. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-h3" id="/html/body/h3">
+          <source xml:lang="en"> Belangrijke opmerkingen in verband met de einddatum </source>
+          <target xml:lang="fr" state="final"> Wichtige Anmerkungen in Bezug auf das Enddatum </target>
+        </trans-unit>
+        <group restype="x-html-ol" id="/html/body/ol">
+          <trans-unit restype="listitem" id="/html/body/ol/li[1]">
+            <source xml:lang="en">De einddatum van de weddebijslaglijn mag in geen geval later vallen dan de einddatum van de lijn van de baremieke wedde waarvan die afhangt (en mag uiteraard ook niet later vallen dan de einddatum van het kalenderkwartaal waarop de aangifte betrekking heeft). </source>
+            <target xml:lang="fr" state="final">Das Enddatum der Zeile für Gehaltszuschläge darf auf keinen Fall nach dem Enddatum der Zeile des Tarifgehalts liegen, von der es abhängt (selbstverständlich darf es auch nicht nach dem Enddatum des Kalenderquartals liegen, auf das sich die Meldung bezieht). </target>
+          </trans-unit>
+          <group restype="listitem" id="/html/body/ol/li[2]">
+            <trans-unit id="/html/body/ol/li[2]/text()[1]">
+              <source xml:lang="en">De afsluiting van een lijn van baremieke wedde leidt niet noodzakelijk tot de afsluiting van de lijn van weddebijslag die daarvan afhangt. Concreet moet u enkel een weddebijslaglijn afsluiten in een van de volgende drie gevallen: </source>
+              <target xml:lang="fr" state="final">Der Abschluss einer Zeile des Tarifgehalts führt nicht unbedingt zum Abschluss der Zeile des Gehaltszuschlags, die davon abhängt. Konkret müssen Sie nur eine Zeile für Gehaltszuschläge in einem der drei folgenden Fälle abschließen: </target>
+            </trans-unit>
+            <group restype="x-html-ol" id="/html/body/ol/li[2]/ol">
+              <trans-unit restype="listitem" id="/html/body/ol/li[2]/ol/li[1]">
+                <source xml:lang="en">ofwel wijzigt de situatie van de weddebijslag omdat een gegeven wijzigt; </source>
+                <target xml:lang="fr" state="final">entweder ändert sich die Situation des Gehaltszuschlags, da sich eine Angabe verändert; </target>
+              </trans-unit>
+              <trans-unit restype="listitem" id="/html/body/ol/li[2]/ol/li[2]">
+                <source xml:lang="en">ofwel verliest het personeelslid het recht op de bijslag (bijvoorbeeld omdat zijn of haar graad of functie is gewijzigd); </source>
+                <target xml:lang="fr" state="final">oder das Personalmitglied verliert den Anspruch auf den Zuschlag (z. B. aufgrund einer Veränderung von Dienstgrad oder Funktion); </target>
+              </trans-unit>
+              <trans-unit restype="listitem" id="/html/body/ol/li[2]/ol/li[3]">
+                <source xml:lang="en">ofwel wordt de baremieke weddelijn definitief afgesloten (de werkrelatie tussen de werknemer en de werkgever is verbroken). </source>
+                <target xml:lang="fr" state="final">oder die Tarifgehaltszeile wird endgültig abgeschlossen (das Beschäftigungsverhältnis zwischen dem Arbeitnehmer und dem Arbeitgeber wurde beendet). </target>
+              </trans-unit>
+            </group>
+          </group>
+        </group>
+        <trans-unit restype="x-html-p" id="/html/body/p[16]">
+          <source xml:lang="en"> In dit laatste geval moet u alle lijnen van weddebijslag onder de afgesloten lijn van de baremieke wedde afsluiten die, in voorkomend geval, tegelijkertijd werden geopend. </source>
+          <target xml:lang="fr" state="final"> Im letztgenannten Fall müssen Sie alle Zeilen des Gehaltszuschlags unter der abgeschlossenen Zeile des Tarifgehalts, die ggf. gleichzeitig geöffnet waren, vollständig ausfüllen. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-h2" id="/html/body/h2[2]">
+          <source xml:lang="en"> Bijslagen per eenheid (per uur of per prestatie) </source>
+          <target xml:lang="fr" state="final"> Zuschläge pro Einheit (pro Stunde oder pro Leistung) </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[17]">
+          <source xml:lang="en"> Het betreft bijslagen die nu en dan aan het personeelslid worden toegekend als vergoeding voor een prestatie (bijvoorbeeld overuren). </source>
+          <target xml:lang="fr" state="final"> Es betrifft Zuschläge, die dem Personalmitglied gelegentlich als Entschädigung für eine Leistung (zum Beispiel Überstunden) gewährt werden. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[18]">
+          <source xml:lang="en"> Voor elk van deze bijslagen wordt een vast eenheidsbedrag bepaald, dit is het bedrag dat voor een bepaalde prestatie wordt toegekend (een vast bedrag per overuur bijvoorbeeld). </source>
+          <target xml:lang="fr" state="final"> Für jeden dieser Zuschläge wird ein fester Einheitsbetrag festgelegt, d. h. der Betrag, der für eine bestimmte Leistung gewährt wird (z. B. ein fester Betrag pro Überstunde). </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[19]">
+          <source xml:lang="en"> Deze bijslagen zijn dus per definitie variabel en zijn moeilijk aan te geven op basis van een systeem waarbij telkens een nieuwe lijn moet worden aangemaakt voor iedere periode waarin het personeelslid een dergelijke bijslag heeft ontvangen. </source>
+          <target xml:lang="fr" state="final"> Diese Zuschläge sind daher definitionsgemäß variabel und schwierig anzugeben auf Basis eines Systems, bei dem für jede Periode, in welcher das Personalmitglied einen solchen Zuschlag erhalten hat, eine neue Zeile einzurichten ist. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[20]">
+          <source xml:lang="en"> Een dergelijk systeem zou er in extreme gevallen toe kunnen leiden dat een nieuwe lijn moet worden aangemaakt voor één dag waarvoor de bijslag verschuldigd is. </source>
+          <target xml:lang="fr" state="final"> Ein solches System führt im Extremfall dazu, dass für einen Tag, für den der Zuschlag geschuldet wird, eine neue Zeile einzurichten ist. </target>
+        </trans-unit>
+        <trans-unit restype="x-html-p" id="/html/body/p[21]">
+          <source xml:lang="en"> Daarom mogen deze bedragen per bijslag (dus per referentie) worden gebundeld en in één keer worden aangegeven voor een periode die evenwel niet langer mag duren dan het kwartaal. Deze periode is dus: </source>
+          <target xml:lang="fr" state="final"> Deshalb können diese Beträge pro Zuschlag (d. h. pro Referenz) zusammengefasst und für eine Periode, die jedoch nicht länger als ein Quartal dauern kann, auf einmal angegeben werden. Diese Periode ist daher: </target>
+        </trans-unit>
+        <group restype="x-html-ul" id="/html/body/ul[2]">
+          <trans-unit restype="listitem" id="/html/body/ul[2]/li[1]">
+            <source xml:lang="en">ofwel het kalenderkwartaal van de aangifte (op voorwaarde dat de lijn van de baremieke wedde waarvan de weddebijslaglijn afhangt het hele kwartaal bestrijkt); </source>
+            <target xml:lang="fr" state="final">das Kalenderquartal der Meldung (vorausgesetzt, dass die Zeile des Tarifgehalts, die für die Zeile des Gehaltszuschlags maßgeblich ist, sich über das gesamte Quartal erstreckt); </target>
+          </trans-unit>
+          <trans-unit restype="listitem" id="/html/body/ul[2]/li[2]">
+            <source xml:lang="en">ofwel de periode tussen de begindatum van het kalenderkwartaal van de aangifte en de einddatum van de lijn van de baremieke wedde waarvan de weddebijslaglijn afhangt (waarbij de lijn van de baremieke wedde in de loop van het kwartaal werd afgesloten); </source>
+            <target xml:lang="fr" state="final">oder die Periode zwischen dem Beginndatum des Kalenderquartals der Meldung und dem Enddatum der Zeile des Tarifgehalts, das für die Zeile des Gehaltszuschlags maßgeblich ist (wobei die Zeile des Tarifgehalts im Laufe des Quartals abgeschlossen wurde); </target>
+          </trans-unit>
+          <trans-unit restype="listitem" id="/html/body/ul[2]/li[3]">
+            <source xml:lang="en">ofwel de periode tussen de begindatum van de lijn van de baremieke wedde waarvan de weddebijslaglijn afhangt en het einde van het kalenderkwartaal (waarbij een nieuwe lijn van baremieke wedde in de loop van het kwartaal werd geopend); </source>
+            <target xml:lang="fr" state="final">oder die Periode zwischen dem Beginndatum der Zeile des Tarifgehalts, das für die Zeile des Gehaltszuschlags maßgeblich ist, und dem Ende des Kalenderquartals (wobei eine neue Zeile des Tarifgehalts im Laufe des Quartals eingerichtet wurde); </target>
+          </trans-unit>
+          <trans-unit restype="listitem" id="/html/body/ul[2]/li[4]">
+            <source xml:lang="en">ofwel een van de maanden in het kalenderkwartaal van de aangifte (op voorwaarde dat de lijn van baremieke wedde waarvan de weddebijslaglijn afhangt die hele maand bestrijkt). </source>
+            <target xml:lang="fr" state="final">oder einer der Monate im Kalenderquartal der Meldung (vorausgesetzt, dass die Zeile des Tarifgehalts, die für die Zeile des Gehaltszuschlags maßgeblich ist, sich über den gesamten Monat erstreckt). </target>
+          </trans-unit>
+        </group>
+        <trans-unit restype="x-html-p" id="/html/body/p[22]">
+          <source xml:lang="en"> Kortom, het is de aangever die, door opgave van een begin- en einddatum, de periode bepaalt waarvoor hij, voor eenzelfde bijslag, het aantal eenheden van die bijslag aangeeft, evenals het eenheidsbedrag van de bijslag en het globale bedrag dat hij aan het personeelslid heeft toegekend.<g ctype="lb"/> Voor dit type bijslag moet iedere nieuwe lijn een begindatum hebben, die niet voor de begindatum van het aangiftekwartaal mag liggen, alsook een einddatum, die niet na de einddatum van het aangiftekwartaal mag vallen. </source>
+          <target xml:lang="fr" state="final"> Kurz gefasst: Durch Angabe des Beginn- und Enddatum bestimmt der Meldende, wofür er für einen bestimmten Zuschlag die Anzahl Einheiten dieses Zuschlags angibt, sowie einen Einheitsbetrag dieses Zuschlags und den Gesamtbetrag, den er dem Personalmitglied gewährt hat.<g ctype="lb"/> Für diese Art von Zuschlag muss jede neue Zeile ein Beginndatum enthalten, das nicht vor dem Beginndatum des Meldequartals liegen darf, sowie ein Enddatum, das nicht nach dem Enddatum des Meldequartals liegen darf. </target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
