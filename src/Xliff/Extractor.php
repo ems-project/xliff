@@ -410,9 +410,6 @@ class Extractor
                 if (!$value instanceof \DOMAttr) {
                     throw new \RuntimeException('Unexpected attribute object');
                 }
-                if (\in_array($value->nodeName, self::TRANSLATABLE_ATTRIBUTES, true)) {
-                    continue;
-                }
                 $attributes['html:'.$value->nodeName] = $value->nodeValue;
             }
         }
