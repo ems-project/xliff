@@ -216,10 +216,10 @@ class InsertionRevision
         }
         foreach ($result as $target) {
             if (null === $this->targetLocale) {
-                $this->targetLocale = \strval($target->attributes('xml', true)['lang'] ?? null);
+                $this->targetLocale = $this->getAttributeValue($target, 'xml:lang');
                 continue;
             }
-            if ($this->targetLocale !== \strval($target->attributes('xml', true)['lang'] ?? null)) {
+            if ($this->targetLocale !== $this->getAttributeValue($target, 'xml:lang')) {
                 throw new \RuntimeException('Elasticms does\'t support XLIFF files containing multiple target languages');
             }
         }
