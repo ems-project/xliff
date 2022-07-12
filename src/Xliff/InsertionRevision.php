@@ -356,7 +356,11 @@ class InsertionRevision
         $expectedSourceValue = $expectedSourceValue ?? '';
         $sourceValue = $sourceValue ?? '';
         if ($expectedSourceValue !== $sourceValue) {
-            throw new \RuntimeException(\sprintf('Unexpected mismatched sources expected "%s" got "%s" for property %s in %s:%s:%s', $expectedSourceValue, $sourceValue, $sourcePropertyPath, $this->contentType, $this->ouuid, $this->revisionId));
+            $basename = tempnam(sys_get_temp_dir(), 'debug_');
+            file_put_contents($basename.'a.html', $expectedSourceValue);
+            file_put_contents($basename.'b.html', $sourceValue);
+
+            throw new \RuntimeException(\sprintf('Unexpected mismatched sources expected "%s" got "%s" for property %s in %s:%s:%s. Check %s files for debug purpose.', $expectedSourceValue, $sourceValue, $sourcePropertyPath, $this->contentType, $this->ouuid, $this->revisionId, $basename));
         }
 
         $propertyAccessor->setValue($insertRawData, $targetPropertyPath, $targetValue);
