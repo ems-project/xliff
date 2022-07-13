@@ -4,15 +4,13 @@ namespace EMS\Xliff\Xliff\Entity;
 
 class InsertError
 {
+    private string $expectedSourceValue;
+    private string $sourceValue;
+    private string $sourcePropertyPath;
+    private string $contentType;
+    private string $ouuid;
+    private string $revisionId;
 
-    /**
-     * @param string $expectedSourceValue
-     * @param string $sourceValue
-     * @param array $sourcePropertyPath
-     * @param string $contentType
-     * @param string $ouuid
-     * @param string $revisionId
-     */
     public function __construct(string $expectedSourceValue, string $sourceValue, string $sourcePropertyPath, string $contentType, string $ouuid, string $revisionId)
     {
         $this->expectedSourceValue = $expectedSourceValue;

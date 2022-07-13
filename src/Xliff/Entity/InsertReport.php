@@ -7,7 +7,7 @@ class InsertReport
     /** @var InsertError[][]  */
     private array $errors = [];
 
-    public function addError(string $expectedSourceValue, string $sourceValue, string $sourcePropertyPath, string $contentType, string $ouuid, string $revisionId)
+    public function addError(string $expectedSourceValue, string $sourceValue, string $sourcePropertyPath, string $contentType, string $ouuid, string $revisionId): void
     {
         $this->errors[$revisionId][] = new InsertError($expectedSourceValue, $sourceValue, $sourcePropertyPath, $contentType, $ouuid, $revisionId);
     }
