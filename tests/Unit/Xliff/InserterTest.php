@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace EMS\Xliff\Tests\Unit\Xliff;
 
 use EMS\Helpers\Standard\Json;
+use EMS\Xliff\Xliff\Entity\InsertReport;
 use EMS\Xliff\Xliff\Inserter;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Finder\Finder;
@@ -41,6 +42,7 @@ Click here</a>
     {
         $finder = new Finder();
         $finder->in(\join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'Resources', 'Imports']))->directories();
+        $insertReport = new InsertReport();
 
         foreach ($finder as $file) {
             $absoluteFilePath = $file->getRealPath();
@@ -53,7 +55,7 @@ Click here</a>
                 $correspondingJson = Json::decode($corresponding);
                 $this->assertIsArray($correspondingJson);
                 $target = [];
-                $document->extractTranslations($correspondingJson, $target);
+                $document->extractTranslations($insertReport, $correspondingJson, $target);
 
                 $expectedFilename = \join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'Resources', 'Translated', $document->getContentType().'-'.$document->getOuuid().'-'.$document->getRevisionId().'.json']);
                 if (!\file_exists($expectedFilename)) {

@@ -61,6 +61,6 @@
 		"phpcs": "php-cs-fixer fix",
 		"phpstan": "phpstan analyse",
 		"phpunit":  "phpunit",
-		"phpall": "php-cs-fixer fix && phpunit && phpstan"
+		"phpall": "php-cs-fixer fix && phpunit && phpstan analyse"
 	}
 }

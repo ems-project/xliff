@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace EMS\Xliff\Tests\Unit\Xliff;
 
+use EMS\Xliff\Xliff\Entity\InsertReport;
 use EMS\Xliff\Xliff\Extractor;
 use EMS\Xliff\Xliff\Inserter;
 use PHPUnit\Framework\TestCase;
@@ -48,10 +49,11 @@ class ExtractorTest extends TestCase
         $xliffParser = new Extractor('nl', 'de', Extractor::XLIFF_1_2);
         $document = $xliffParser->addDocument('contentType', 'ouuid_1', 'revisionId_1');
         $xliffParser->addHtmlField($document, '[%locale%][body]', $rawData['nl']['body'], $existing['de']['body']);
+        $insertReport = new InsertReport();
 
         $inserter = new Inserter($xliffParser->getDom());
         foreach ($inserter->getDocuments() as $document) {
-            $document->extractTranslations($rawData, $extracted);
+            $document->extractTranslations($insertReport, $rawData, $extracted);
         }
         $this->assertEquals([
             'de' => [
