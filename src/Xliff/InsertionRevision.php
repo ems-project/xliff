@@ -6,6 +6,7 @@ namespace EMS\Xliff\Xliff;
 
 use EMS\Helpers\Html\Html;
 use EMS\Helpers\Standard\Accessor;
+use EMS\Xliff\Xliff\Entity\InsertReport;
 use EMS\Xliff\XML\DomHelper;
 use Symfony\Component\PropertyAccess\PropertyAccess;
 
@@ -66,15 +67,15 @@ class InsertionRevision
      * @param array<mixed> $extractedRawData
      * @param array<mixed> $insertRawData
      */
-    public function extractTranslations(array &$extractedRawData, array &$insertRawData): void
+    public function extractTranslations(InsertReport $insertReport, array &$extractedRawData, array &$insertRawData): void
     {
         foreach ($this->getTranslatedFields() as $segment) {
             switch ($this->fieldType($segment)) {
                 case self::HTML_FIELD:
-                    $this->importHtmlField($segment, $extractedRawData, $insertRawData);
+                    $this->importHtmlField($insertReport, $segment, $extractedRawData, $insertRawData);
                     break;
                 case self::SIMPLE_FIELD:
-                    $this->importSimpleField($segment, $extractedRawData, $insertRawData);
+                    $this->importSimpleField($insertReport, $segment, $extractedRawData, $insertRawData);
                     break;
                 default:
                     throw new \RuntimeException('Unexpected field type');
@@ -119,7 +120,7 @@ class InsertionRevision
      * @param array<mixed> $extractedRawData
      * @param array<mixed> $insertRawData
      */
-    private function importHtmlField(\DOMElement $group, array &$extractedRawData, array &$insertRawData): void
+    private function importHtmlField(InsertReport $insertReport, \DOMElement $group, array &$extractedRawData, array &$insertRawData): void
     {
         $sourceValue = $this->getHtml($group, 'source');
         $sourceLocale = $this->sourceLocale;
@@ -145,14 +146,14 @@ class InsertionRevision
             throw new \RuntimeException('Unexpected missing target locale');
         }
 
-        $this->importField($group, $sourceLocale, $targetLocale, $extractedRawData, $sourceValue, $insertRawData, $targetValue, 'html');
+        $this->importField($insertReport, $group, $sourceLocale, $targetLocale, $extractedRawData, $sourceValue, $insertRawData, $targetValue, 'html');
     }
 
     /**
      * @param array<mixed> $extractedRawData
      * @param array<mixed> $insertRawData
      */
-    private function importSimpleField(\DOMElement $segment, array &$extractedRawData, array &$insertRawData): void
+    private function importSimpleField(InsertReport $insertReport, \DOMElement $segment, array &$extractedRawData, array &$insertRawData): void
     {
         $source = DomHelper::getSingleElement($segment, 'source');
         $sourceValue = $source->textContent;
@@ -168,7 +169,7 @@ class InsertionRevision
             throw new \RuntimeException('Unexpected missing target locale');
         }
 
-        $this->importField($segment, $sourceLocale, $targetLocale, $extractedRawData, $sourceValue, $insertRawData, $targetValue, null);
+        $this->importField($insertReport, $segment, $sourceLocale, $targetLocale, $extractedRawData, $sourceValue, $insertRawData, $targetValue, null);
     }
 
     public function getAttributeValue(\DOMElement $field, string $attributeName, ?string $defaultValue = null): ?string
@@ -337,7 +338,7 @@ class InsertionRevision
      * @param mixed[] $extractedRawData
      * @param mixed[] $insertRawData
      */
-    private function importField(\DOMElement $segment, string $sourceLocale, string $targetLocale, array &$extractedRawData, string $sourceValue, array &$insertRawData, string $targetValue, ?string $format): void
+    private function importField(InsertReport $insertReport, \DOMElement $segment, string $sourceLocale, string $targetLocale, array &$extractedRawData, string $sourceValue, array &$insertRawData, string $targetValue, ?string $format): void
     {
         $propertyPath = Accessor::fieldPathToPropertyPath(DomHelper::getStringAttr($segment, 'id'));
         $sourcePropertyPath = \str_replace(self::LOCALE_PLACE_HOLDER, $sourceLocale, $propertyPath);
@@ -356,11 +357,7 @@ class InsertionRevision
         $expectedSourceValue = $expectedSourceValue ?? '';
         $sourceValue = $sourceValue ?? '';
         if ($expectedSourceValue !== $sourceValue) {
-            $basename = \tempnam(\sys_get_temp_dir(), 'debug_');
-            \file_put_contents($basename.'a.html', $expectedSourceValue);
-            \file_put_contents($basename.'b.html', $sourceValue);
-
-            throw new \RuntimeException(\sprintf('Unexpected mismatched sources expected "%s" got "%s" for property %s in %s:%s:%s. Check %s files for debug purpose.', $expectedSourceValue, $sourceValue, $sourcePropertyPath, $this->contentType, $this->ouuid, $this->revisionId, $basename));
+            $insertReport->addError($expectedSourceValue, $sourceValue, $sourcePropertyPath, $this->contentType, $this->ouuid, $this->revisionId);
         }
 
         $propertyAccessor->setValue($insertRawData, $targetPropertyPath, $targetValue);
