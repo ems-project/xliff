@@ -7,6 +7,7 @@ namespace EMS\Xliff\Tests\Unit\Xliff;
 
 use EMS\Helpers\Html\Html;
 use EMS\Helpers\Standard\Json;
+use EMS\Xliff\Xliff\Entity\InsertReport;
 use EMS\Xliff\Xliff\Extractor;
 use EMS\Xliff\Xliff\Inserter;
 use EMS\Xliff\Xliff\InsertionRevision;
@@ -72,8 +73,9 @@ class IntegratedTest extends TestCase
 
     private function insertDocument(InsertionRevision $document, $source, $target)
     {
+        $insertReport = new InsertReport();
         $inserted = $source;
-        $document->extractTranslations($source, $inserted);
+        $document->extractTranslations($insertReport, $source, $inserted);
         $inserted['locale'] = 'de';
 
         foreach ($source as $field => $value) {
@@ -97,8 +99,9 @@ class IntegratedTest extends TestCase
     private function saveJson(InsertionRevision $document)
     {
         $source = Json::decode(\file_get_contents(\join(DIRECTORY_SEPARATOR, [__DIR__, '..', 'Resources', 'TestRevision', \sprintf('%s_%s.json', $document->getOuuid(), $document->getRevisionId())])));
+        $insertReport = new InsertReport();
         $inserted = $source;
-        $document->extractTranslations($source, $inserted);
+        $document->extractTranslations($insertReport, $source, $inserted);
         unset($inserted['date_modification']);
         unset($inserted['_contenttype']);
         unset($inserted['_sha1']);
